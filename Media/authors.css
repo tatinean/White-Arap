@@ -18,12 +18,8 @@
 		margin:25px 0 0 0;
 	}
 	.item {
-		width:257px;
 		padding-left:10px;
 		background:green;
-	}
-	.ad{
-		width: 212px;
 	}
 }
 @media (min-width: 980px) and (max-width: 1199px){
@@ -45,7 +41,7 @@
 		margin:25px 0 0 19px;
 	}
 	.item {
-		width:240px;
+
 	}
 
 }
@@ -65,9 +61,6 @@
 		width:558px;
 		float:left;
 		margin:25px 0 0 10px;
-	}
-	.article {
-		width:269px;
 	}
 	.info-footer {
 		text-align: center;
@@ -98,9 +91,6 @@
 		width:400px;
 		float:left;
 		margin:25px 0 0 0;
-	}
-	.article {
-		width:390px;
 	}
 	.info-footer {
 		color: #2C2B2B;
@@ -139,9 +129,6 @@
 		width:320px;
 		float:left;
 		margin:25px 0 0 0;
-	}
-	.article {
-		width:309px;
 	}
 	.info-footer {
 		color: #2C2B2B;

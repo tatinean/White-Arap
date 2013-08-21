@@ -498,13 +498,12 @@ h4{
 	margin:25px 0 0 0;
 }
 .item {
-	width:257px;
+	width:251px;
+	height:373px;
 	padding-left:10px;
 	margin-bottom: 10px;
 	background:royalblue;
-}
-.item.ad{
-	width: 257px;
+	float:left;
 }
 .all-authors{
 	font-family:'Conv_MyriadProSemibold' ,'Conv_MyriadProBold','Conv_MyriadProRegular',serif;
