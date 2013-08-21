@@ -499,11 +499,12 @@ h4{
 }
 .item {
 	width:251px;
-	height:373px;
+	height:401px;
 	padding-left:10px;
 	margin-bottom: 10px;
 	background:royalblue;
 	float:left;
+	margin:3px;
 }
 .all-authors{
 	font-family:'Conv_MyriadProSemibold' ,'Conv_MyriadProBold','Conv_MyriadProRegular',serif;
@@ -524,6 +525,9 @@ h4{
 .about-the-author{
 	font-family:'Conv_MyriadProRegular','Conv_MyriadProBold','Conv_MyriadProSemibold',serif;
 	font-size:12px;
+}
+div .their-works {
+	padding-top: 23px;
 }
 .their-works{
 	font-size:12px;
