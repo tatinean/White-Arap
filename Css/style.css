@@ -490,17 +490,17 @@ h4{
 =================Start  Page Authors===========
 */
 .content-wrap{
-	margin-left:19px;
+	margin:25px 0 0 19px;
 	float:left;
 	width:801px;
 }
-#content-authors{
+#container{
 	float:left;
 	width:782px;
 	margin:25px 0 0 19px;
 	background:royalblue;
 }
-.article {
+.item {
 	width:257px;
 	/*height:372px;*/
 	/*padding-left:10px;*/
