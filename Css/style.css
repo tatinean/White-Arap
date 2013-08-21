@@ -495,18 +495,16 @@ h4{
 	width:801px;
 }
 #container{
-	float:left;
-	width:782px;
-	margin:25px 0 0 19px;
-	background:royalblue;
+	margin:25px 0 0 0;
 }
 .item {
 	width:257px;
-	/*height:372px;*/
-	/*padding-left:10px;*/
+	padding-left:10px;
 	margin-bottom: 10px;
-	background:green;
-	/*float:left;*/
+	background:royalblue;
+}
+.item.ad{
+	width: 257px;
 }
 .all-authors{
 	font-family:'Conv_MyriadProSemibold' ,'Conv_MyriadProBold','Conv_MyriadProRegular',serif;

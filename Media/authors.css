@@ -14,18 +14,16 @@
 	.list-info {
 		width: 169px;
 	}
-	#content-authors{
-		float:left;
-		width:801px;
+	#container{
 		margin:25px 0 0 0;
-		background:royalblue;
 	}
-	.article {
+	.item {
 		width:257px;
-		height:372px;
 		padding-left:10px;
 		background:green;
-		float:left;
+	}
+	.ad{
+		width: 212px;
 	}
 }
 @media (min-width: 980px) and (max-width: 1199px){
@@ -41,12 +39,12 @@
 	.list-info {
 		width: 169px;
 	}
-	#content-authors {
-		width:750px;
+	.content-wrap {
+		width:741px;
 		float:left;
-		margin:25px 0 0 10px;
+		margin:25px 0 0 19px;
 	}
-	.article {
+	.item {
 		width:240px;
 	}
 
