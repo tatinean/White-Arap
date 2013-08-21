@@ -1,27 +1,7 @@
 /*
 ======Start Page Authors========
 */
-@media (min-width: 1200px) {
-	.wrapper {
-		width:1160px;
-		margin:0 auto;
-		background:brown;
-	}
-	.side-bar {
-		width:180px;
-		background:red;
-	}
-	.list-info {
-		width: 169px;
-	}
-	#container{
-		margin:25px 0 0 0;
-	}
-	.item {
-		padding-left:10px;
-		background:green;
-	}
-}
+
 @media (min-width: 980px) and (max-width: 1199px){
 	.wrapper {
 		width:940px;

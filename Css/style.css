@@ -495,16 +495,15 @@ h4{
 	width:801px;
 }
 #container{
-	margin:25px 0 0 0;
+	margin:25px 0 0 -5px;
 }
 .item {
-	width:251px;
-	height:401px;
-	padding-left:10px;
-	margin-bottom: 10px;
+	width: 231px;
+	/*height:401px;*/
+	padding: 10px;
 	background:royalblue;
 	float:left;
-	margin:3px;
+	margin: 0 5px 10px 5px;
 }
 .all-authors{
 	font-family:'Conv_MyriadProSemibold' ,'Conv_MyriadProBold','Conv_MyriadProRegular',serif;
@@ -547,6 +546,11 @@ div .their-works {
 	font-family:'Conv_MyriadProRegular','Conv_MyriadProBold','Conv_MyriadProSemibold',serif;
 	font-size:11px;
 }
+
+.author-photo {
+	margin-top: 10px;
+}
+
 .scribe{
 	max-width:101px;
 	max-height:99px;
