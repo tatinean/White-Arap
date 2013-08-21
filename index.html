@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Index</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="media/index.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script type ="text/javascript" src ="jquery.masonry.min.js"></script>
+		<script type ="text/javascript" src ="modernizr-transitions.js">
+			$(document).ready(function () {
+				$('.wrapper').masonry({
+					itemSelector: '.side-bar,.publication,.recent-works,.new-authors'
+					singleMode: false,
+					isResizable: true,
+					isAnimated: true,
+					animationOptions: {
+						queue: false,
+						duration: 500
+					}
+				});
+			});
+			$(".the-first-publication:last-child").css("border", "none");
+			$(".recent-publications:last-child").css("border", "none");
+			$(".list-of-authors:last-child").css("border", "none");
+		</script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="header">
+				<a href="#" class="logo"><h1>Белый Арап</h1></a>
+			</div>
+			<div class="index-content">
+				<div class="side-bar">
+					<ul class="list-info">
+						<li><a href="#">О НАС</a></li>
+						<li><a href="#">КНИГИ</a></li>
+						<li><a href="#">КАТАЛОГ ПРОИЗВЕДЕНИЙ</a></li>
+						<li><a href="#">АВТОРЫ</a></li>
+						<li><a href="#">КОНКУРСЫ</a></li>
+						<li><a href="#">НОВОСТИ</a></li>
+						<li><a href="#">ПАРТНЕРЫ</a></li>
+					</ul>
+					<div class="header-form">
+						<h4>ПОИСК</h4>
+						<form>
+							<input type="text" name="author" value="" class="author">
+							<input type="submit" name="author" value="ПОИСК" class="submit">
+						</form>
+					</div>
+					<div class="alphabet-authors">
+						<h4>АВТОРЫ</h4>
+						<ul class="alphabet">
+							<li><a href="#">А</a></li>
+							<li><a class="letter" href="#">Б</a></li>
+							<li><a href="#">В</a></li>
+							<li><a href="#">Г</a></li>
+							<li><a href="#">Д</a></li>
+							<li><a href="#">Е</a></li>
+							<li><a href="#">Ё</a></li>
+							<li><a href="#">Ж</a></li>
+							<li><a href="#">З</a></li>
+							<li><a href="#">И</a></li>
+							<li><a href="#">Й</a></li>
+							<li><a href="#">К</a></li>
+							<li><a href="#">Л</a></li>
+							<li><a href="#">М</a></li>
+							<li><a href="#">Н</a></li>
+							<li><a href="#">О</a></li>
+							<li><a href="#">П</a></li>
+							<li><a href="#">Р</a></li>
+							<li><a href="#">С</a></li>
+							<li><a href="#">Т</a></li>
+							<li><a href="#">У</a></li>
+							<li><a href="#">Ф</a></li>
+							<li><a href="#">Х</a></li>
+							<li><a href="#">Ц</a></li>
+							<li><a href="#">Ч</a></li>
+							<li><a href="#">Ш</a></li>
+							<li><a href="#">Щ</a></li>
+							<li><a href="#">Ъ</a></li>
+							<li><a href="#">Ы</a></li>
+							<li><a href="#">Ь</a></li>
+							<li><a href="#">Э</a></li>
+							<li><a href="#">Ю</a></li>
+							<li><a href="#">Я</a></li>
+						</ul>
+					</div>
+					<div class="about-us">
+						<h4>О НАС</h4>
+						<p>
+							Четвертой книгой волшебных
+							историй Петр Бормор,
+							сказачник-философ,обожаемый
+							человечеством за три
+							опубликованных уже сборника—
+							"Многобукаф".Книга для","Игры
+							демиургов" и "Книга на третье",
+							решил порадовать новыми притчами всех и сразу.
+						</p>
+					</div>
+					<div class="social-networks">
+						<h4>МЫ В СОЦСЕТЯХ</h4>
+						<div class="social">
+							<a href="#" class="facebook"><img src="images/facebook.png" alt="facebook"/></a>
+							<a href="#" class="twitter"><img src="images/twitter.png" alt="twitter"/></a>
+							<a href="#" class="network"><img src="images/network.png" alt="network"/></a>
+							<a href="#" class="vkontakte"><img src="images/vkontakte.png" alt="vkontakte"/></a>
+							<a href="#" class="ggoogle"><img src="images/ggoogle.png" alt="ggoogle"/></a>
+						</div>
+					</div>
+				</div>
+				<div class="publication">
+					<div class="publication-envelope">
+						<a href="#"><img src="images/envelope.png" alt="envelope" class="envelope"/></a>
+						<div class="title">ЗАПАСНАЯ КНИЖКА</div>
+						<div class="last-name">Петр Бормор</div>
+						<p>
+							Четвертой книгой волшебных историй Петр Бормор,
+							сказачник-философ,обожаемый человечеством за три
+							опубликованных уже сборника-"Многобукаф".Книга для","Игры
+							демиургов" и "Книга на третье",решил порадовать новыми
+							притчами всех и сразу.
+							"Запасная книжка"-это с изрядной долей светлого
+							юмора и мудрости для читателя любого роста.
+						</p>
+					</div>
+					<div class="publication-date">
+						<div class="date">23/10/2013</div>
+						<div class="title">ЗАПАСНАЯ КНИЖКА</div>
+						<div class="last-name">Петр Бормор</div>
+						<p>
+							Четвертой книгой волшебных историй Петр Бормор,
+							сказачник-философ,обожаемый человечеством за три
+							опубликованных уже сборника-"Многобукаф".Книга для","Игры
+							демиургов" и "Книга на третье",решил порадовать новыми
+							притчами всех и сразу.
+							"Запасная книжка"-это с изрядной долей светлого
+							юмора и мудрости для читателя любого роста.
+						</p>
+					</div>
+					<div class="publication-date">
+						<div class="date">23/10/2013</div>
+						<div class="title">ЗАПАСНАЯ КНИЖКА</div>
+						<div class="last-name">Петр Бормор</div>
+						<p>
+							Четвертой книгой волшебных историй Петр Бормор,
+							сказачник-философ,обожаемый человечеством за три
+							опубликованных уже сборника-"Многобукаф".Книга для","Игры
+							демиургов" и "Книга на третье",решил порадовать новыми
+							притчами всех и сразу.
+							"Запасная книжка"-это с изрядной долей светлого
+							юмора и мудрости для читателя любого роста.
+						</p>
+					</div>
+					<div class="publication-date">
+						<div class="date">23/10/2013</div>
+						<div class="title">ЗАПАСНАЯ КНИЖКА</div>
+						<div class="last-name">Петр Бормор</div>
+						<p>
+							Четвертой книгой волшебных историй Петр Бормор,
+							сказачник-философ,обожаемый человечеством за три
+							опубликованных уже сборника-"Многобукаф".Книга для","Игры
+							демиургов" и "Книга на третье",решил порадовать новыми
+							притчами всех и сразу.
+							"Запасная книжка"-это с изрядной долей светлого
+							юмора и мудрости для читателя любого роста.
+						</p>
+					</div>
+				</div>
+				<div class="recent-works">
+					<div class="recent-works-nomination">
+						<div class="nomination">ПОСЛЕДНИЕ ПРОИЗВЕДЕНИЯ</div>
+					</div>
+					<div class="recent-works-picture">
+						<a href="#"><img src="images/picture.png" alt="picture" class="picture"/></a>
+						<div class="title">ЗАПАСНАЯ КНИЖКА</div>
+						<div class="name-author">Петр Бормор</div>
+						<div class="edition">издание 2011г</div>
+						<p>Четвертой книгой волшебных историй Петр Бормор,
+						   сказачник-философ,обожаемый человечеством за три
+						   опубликованных уже сборника-"Многобукаф".Книга для","Игры
+						   демиургов" и "Книга на третье",решил порадовать новыми
+						</p>
+					</div>
+					<div class="recent-works-night">
+						<a href="#"><img src="images/night.png" alt="night" class="night"/></a>
+						<div class="title">ЗАПАСНАЯ КНИЖКА</div>
+						<div class="name-author">Петр Бормор</div>
+						<div class="edition">издание 2011г</div>
+						<p>Четвертой книгой волшебных историй Петр Бормор,
+						   сказачник-философ,обожаемый человечеством за три
+						   опубликованных уже сборника-"Многобукаф".Книга для","Игры
+						   демиургов" и "Книга на третье",решил порадовать новыми
+						</p>
+					</div>
+					<div class="recent-works-edition">
+						<div class="title">ЗАПАСНАЯ КНИЖКА</div>
+						<div class="name-author">Петр Бормор</div>
+						<div class="edition">издание 2011г</div>
+						<p>Четвертой книгой волшебных историй Петр Бормор,
+						   сказачник-философ,обожаемый человечеством за три
+						   опубликованных уже сборника-"Многобукаф".Книга для","Игры
+						   демиургов" и "Книга на третье",решил порадовать новыми
+						</p>
+					</div>
+				</div>
+				<div class="new-authors">
+					<div class="new-authors-notebook">
+						<a href="#"><img src="images/notebook.png" alt="notebook" class="notebook"/></a>
+						<a class="question" href="#">Где купить?/Все сборники</a>
+					</div>
+					<div class="new-authors-the-authors-names">
+						<div class="the-authors-names">НОВЫЕ АВТОРЫ</div>
+					</div>
+					<div class="new-authors-whisker-whisker">
+						<a href="#"><img src="images/whisker-whisker.png" alt="whisker-whisker" class="whisker-whisker"/></a>
+						<div class="names">ПЕТР БОРМОР</div>
+						<div class="age">40 ЛЕТ</div>
+						<p>Четвертой книгой волшебных
+						   историй Петр Бормор,
+						   сказачник-философ,обожаемый
+						   человечеством за три
+						   опубликованных уже сборника
+						   -"Многобукаф".Книга для","Игры
+						   демиургов" и "Книга на третье",
+						   решил порадовать новыми притчами.
+						</p>
+					</div>
+					<div class="new-authors-scribe-scribe">
+						<a href="#"><img src="images/scribe-scribe.png" alt="scribe-scribe" class="scribe-scribe"/></a>
+						<div class="names">ПЕТР БОРМОР</div>
+						<div class="age">40 ЛЕТ</div>
+						<p>Четвертой книгой волшебных
+						   историй Петр Бормор,
+						   сказачник-философ,обожаемый
+						   человечеством за три
+						   опубликованных уже сборника
+						   -"Многобукаф".Книга для","Игры
+						   демиургов" и "Книга на третье",
+						   решил порадовать новыми притчами.
+						</p>
+					</div>
+					<div class="new-authors-penman">
+						<a href="#"><img src="images/penman.png" alt="penman" class="penman"/></a>
+						<div class="names">ПЕТР БОРМОР</div>
+						<div class="age">40 ЛЕТ</div>
+						<p>Четвертой книгой волшебных
+						   историй Петр Бормор,
+						   сказачник-философ,обожаемый
+						   человечеством за три
+						   опубликованных уже сборника
+						   -"Многобукаф".Книга для","Игры
+						   демиургов" и "Книга на третье",
+						   решил порадовать новыми притчами.
+						</p>
+					</div>
+				</div>
+				<div class="option"></div>
+			</div>
+			<div class="footer">
+				<ul class="info-footer">
+					<li><a href="#">О НАС</a></li>
+					<li><a href="#">КАТАЛОГ ПРОИЗВЕДЕНИЙ</a></li>
+					<li><a href="#">АВТОРЫ</a></li>
+					<li><a href="#">КОНКУРСЫ</a></li>
+					<li><a href="#">НОВОСТИ</a></li>
+					<li><a href="#">ПАРТНЕРЫ</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
+
