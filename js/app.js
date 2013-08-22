@@ -1,6 +1,7 @@
 $(document).ready(function () {
 	$('#container').masonry({
-		columnWidth: 5,
+		columnWidth: 231,
 		itemSelector: '.item'
+		  "gutter":20
 	})
 });

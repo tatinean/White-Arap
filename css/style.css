@@ -506,7 +506,6 @@ h4{
 }
 .item {
 	width: 231px;
-	/*height:401px;*/
 	padding: 10px;
 	background:royalblue;
 	float:left;
@@ -532,15 +531,10 @@ h4{
 	font-family:'Conv_MyriadProRegular','Conv_MyriadProBold','Conv_MyriadProSemibold',serif;
 	font-size:12px;
 }
-div .their-works {
-	padding-top: 23px;
-}
 .their-works{
 	font-size:12px;
 	font-family:'Conv_MyriadProSemibold' ,'Conv_MyriadProBold','Conv_MyriadProRegular',serif;
 	text-transform: uppercase;
-	margin-top:6px;
-	margin-bottom:12px;
 }
 .spare-book{
 	color:#000;
@@ -554,7 +548,7 @@ div .their-works {
 	font-size:11px;
 }
 .author-photo {
-	margin-top: 10px;
+	margin-top: px;
 }
 .option {
 	clear:both;
