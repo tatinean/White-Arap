@@ -530,6 +530,10 @@ h4{
 .about-the-author{
 	font-family:'Conv_MyriadProRegular','Conv_MyriadProBold','Conv_MyriadProSemibold',serif;
 	font-size:12px;
+	margin-top:20px;
+}
+.works{
+	margin-top: 10px;
 }
 .their-works{
 	font-size:12px;
@@ -545,9 +549,6 @@ h4{
 	color:#b2b1b1;
 	font-family:'Conv_MyriadProRegular','Conv_MyriadProBold','Conv_MyriadProSemibold',serif;
 	font-size:11px;
-}
-.author-photo {
-	margin-top: px;
 }
 .option {
 	clear:both;
