@@ -505,7 +505,7 @@ h4{
 	margin:25px 0 0 -5px;
 }
 .item {
-	width: 231px;
+	width: 233px;
 	padding: 10px;
 	background:royalblue;
 	float:left;
@@ -534,7 +534,6 @@ h4{
 .their-works{
 	font-size:12px;
 	font-family:'Conv_MyriadProSemibold' ,'Conv_MyriadProBold','Conv_MyriadProRegular',serif;
-	text-transform: uppercase;
 }
 .spare-book{
 	color:#000;
