@@ -20,8 +20,8 @@
 		float:left;
 		margin:25px 0 0 19px;
 	}
-	.item {
-
+	#container .item{
+		width: 215px;
 	}
 
 }
@@ -37,10 +37,11 @@
 	.list-info {
 		width: 169px;
 	}
-	#content-authors {
-		width:558px;
-		float:left;
-		margin:25px 0 0 10px;
+	.content-wrap{
+		width:549px;
+	}
+	#container{
+		margin: 25px 0 0 0px;
 	}
 	.info-footer {
 		text-align: center;
@@ -67,16 +68,18 @@
 		width:180px;
 		text-align:left;
 	}
-	#content-authors {
+	.content-wrap{
 		width:400px;
-		float:left;
-		margin:25px 0 0 0;
+		margin: 25px 0 0 0px;
+	}
+	#container .item{
+		    width:371px;
 	}
 	.info-footer {
 		color: #2C2B2B;
 		font-family: 'Conv_MyriadProRegular','Conv_MyriadProBold','Conv_MyriadProSemibold',serif;
 		font-size: 11px;
-		padding:44px 0 0 29px;;
+		padding:44px 0 0 29px;
 
 	}
 	.info-footer li {
@@ -105,10 +108,12 @@
 		width:180px;
 		text-align:left;
 	}
-	#content-authors {
-		width:320px;
-		float:left;
-		margin:25px 0 0 0;
+	.content-wrap{
+		width:300px;
+		margin: 25px 0 0 0px;
+	}
+	#container .item{
+		width:271px;
 	}
 	.info-footer {
 		color: #2C2B2B;
