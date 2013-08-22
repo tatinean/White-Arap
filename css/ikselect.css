@@ -50,7 +50,7 @@
 	line-height: 30px;
 	font-family:'Conv_MyriadProRegular','Conv_MyriadProBold','Conv_MyriadProSemibold',serif;
 	font-size: 13px;
-	background: url ("..images/arrow-form.png") scroll 0 0 transparent no-repeat;
+	background:url('../images/arrow-form.png') scroll 0 0 transparent no-repeat;
 }
 .ik_select_block{
 	display:none;
