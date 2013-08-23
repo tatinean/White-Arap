@@ -15,15 +15,16 @@
 	.list-info {
 		width: 169px;
 	}
-	.content-wrap {
-		width:741px;
-		float:left;
-		margin:25px 0 0 19px;
+	.content-wrap{
+		width:748px;
 	}
-	#container .item{
-		width: 215px;
+	#container{
+		margin: 25px 0 0 0;
+		width:748px;
 	}
-
+     .item{
+	     width: 226px;
+     }
 }
 @media (min-width: 768px) and (max-width:979px){
 	.wrapper {
@@ -38,10 +39,13 @@
 		width: 169px;
 	}
 	.content-wrap{
-		width:549px;
+		width:556px;
 	}
 	#container{
-		margin: 25px 0 0 0px;
+		width: 556px;
+	}
+	.item{
+		width: 254px;
 	}
 	.info-footer {
 		text-align: center;
@@ -58,11 +62,11 @@
 	}
 	.side-bar {
 		float:left;
-		width:400px;
+		width:394px;
 		background:grey;
 	}
 	.list-info {
-		width: 400px;
+		width:394px;
 	}
 	.header-form {
 		width:180px;
@@ -70,10 +74,17 @@
 	}
 	.content-wrap{
 		width:400px;
-		margin: 25px 0 0 0px;
+		margin: 25px 0 0 0;
 	}
-	#container .item{
-		    width:371px;
+	#container{
+		    width: 400px;
+	}
+	.item {
+		width: 388px;
+		margin: 0;
+	}
+	monolog-authors a {
+		float: left;
 	}
 	.info-footer {
 		color: #2C2B2B;
@@ -110,7 +121,7 @@
 	}
 	.content-wrap{
 		width:300px;
-		margin: 25px 0 0 0px;
+		margin: 25px 0 0 0;
 	}
 	#container .item{
 		width:271px;
