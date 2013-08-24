@@ -83,8 +83,8 @@
 		width: 388px;
 		margin: 0;
 	}
-	monolog-authors a {
-		float: left;
+	.monolog-authors a {
+
 	}
 	.info-footer {
 		color: #2C2B2B;
