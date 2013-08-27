@@ -6,21 +6,21 @@
 	.wrapper {
 		width:940px;
 		margin:0 auto;
-		background:pink;
+
 	}
 	.side-bar {
 		width:180px;
-		background:gold;
+
 	}
 	.list-info {
 		width: 169px;
 	}
 	.content-wrap{
-		width:748px;
+		width:742px;
 	}
 	#container{
 		margin: 25px 0 0 0;
-		width:748px;
+		width:742px;
 	}
      .item{
 	     width: 226px;
@@ -29,23 +29,26 @@
 @media (min-width: 768px) and (max-width:979px){
 	.wrapper {
 		width:748px;
-		background:plum;
+
 	}
 	.side-bar {
 		width:180px;
-		background:peru;
+
 	}
 	.list-info {
 		width: 169px;
 	}
 	.content-wrap{
-		width:556px;
+		width:550px;
 	}
 	#container{
-		width: 556px;
+		width: 550px;
 	}
 	.item{
 		width: 254px;
+	}
+	.author-photo {
+		float: none;
 	}
 	.info-footer {
 		text-align: center;
@@ -58,12 +61,11 @@
 @media (min-width:480px) and (max-width:767px){
 	.wrapper {
 		width:400px;
-		background:blue;
 	}
 	.side-bar {
 		float:left;
 		width:394px;
-		background:grey;
+
 	}
 	.list-info {
 		width:394px;
@@ -73,18 +75,20 @@
 		text-align:left;
 	}
 	.content-wrap{
-		width:400px;
+		width:394px;
 		margin: 25px 0 0 0;
 	}
 	#container{
-		    width: 400px;
+		width: 394px;
 	}
 	.item {
-		width: 388px;
-		margin: 0;
+		width: 299px;
+		margin:0 ;
 	}
-	.monolog-authors a {
-
+	.author-photo {
+		float: left;
+		margin: 6px;
+		padding: 0;
 	}
 	.info-footer {
 		color: #2C2B2B;
@@ -101,15 +105,18 @@
 @media (min-width:320px) and (max-width:479px){
 	.wrapper {
 		width:320px;
-		background:green;
+
+	}
+	h1{
+		width: 320px;
 	}
 	.side-bar {
 		margin-top:0;
 		margin-bottom:30px;
-		padding:0;
 		text-align:justify;
-		width:320px;
-		background:yellow;
+		width:308px;
+
+		padding: 0 6px;
 	}
 	.list-info {
 		text-align:left;
@@ -120,11 +127,20 @@
 		text-align:left;
 	}
 	.content-wrap{
-		width:300px;
+		width:314px;
 		margin: 25px 0 0 0;
 	}
-	#container .item{
-		width:271px;
+	#container{
+		width: 314px;
+	}
+	.item {
+		width: 299px;
+		margin:10px 0 0 0 ;
+	}
+	.author-photo {
+		float: left;
+		margin: 6px;
+		padding: 0;
 	}
 	.info-footer {
 		color: #2C2B2B;
@@ -138,6 +154,7 @@
 		margin-right: 29px;
 	}
 }
+
 /*
 ======End Page Authors========
 */

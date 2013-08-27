@@ -56,6 +56,7 @@ a{
 .wrapper{
 	max-width:1000px;
 	margin:0 auto;
+
 }
 .header{
 	padding-top: 26px;
@@ -67,7 +68,7 @@ h1{
 	text-indent:-999px;
 	background: url("../images/logotip.png") scroll 0 0 transparent no-repeat;
 	padding-top:26px;
-	width: 394px;
+	width: 314px;
 	height: 83px;
 	margin: 0 auto;
 	cursor: pointer;
@@ -75,9 +76,10 @@ h1{
 .side-bar{
 	width:180px;
 	float:left;
-	padding-left:5px;
+	padding-left:6px;
 	margin-top: 25px;
 	line-height: 24px;
+
 }
 .list-info{
 	color:#2c2b2b;
@@ -97,7 +99,7 @@ h1{
 	font-family:'Conv_MyriadProBold','Conv_MyriadProSemibold','Conv_MyriadProRegular', serif;
 	font-size:13px;
 }
-.list-info a:hover, .list a:active {
+.list a:active {
 	background-color: #8c99a4;
 }
 .header-form{
@@ -504,17 +506,20 @@ h4{
 }
 .content-wrap{
 	margin:25px 0 0 6px;
+	padding-right: 6px;
 	float:left;
-	width:808px;
+	width:802px;
+
 }
 #container{
 	margin:25px 0 0 0;
-	width:808px;
+	width:802px;
 }
 .item {
 	width: 246px;
 	padding: 6px;
 	margin: 0  0 0 9px;
+
 }
 .all-authors{
 	font-family:'Conv_MyriadProSemibold' ,'Conv_MyriadProBold','Conv_MyriadProRegular',serif;
