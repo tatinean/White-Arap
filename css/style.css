@@ -54,9 +54,9 @@ a{
 	color:#b2b1b1;
 }
 .wrapper{
-	max-width:1000px;
+	width:1000px;
 	margin:0 auto;
-
+	background: yellow;
 }
 .header{
 	padding-top: 26px;
@@ -76,10 +76,10 @@ h1{
 .side-bar{
 	width:180px;
 	float:left;
-	padding-left:6px;
+	padding: 0 6px;
 	margin-top: 25px;
 	line-height: 24px;
-
+	background: rosybrown;
 }
 .list-info{
 	color:#2c2b2b;
@@ -228,20 +228,20 @@ h4{
 ======Start Page Index========
 */
 .publication{
-	width: 351px;
+	width: 349px;
 	float:left;
-	padding-left:19px;
-	margin-top: 25px;
-	margin-bottom:50px;
-}
-.envelope{
-	max-width:352px;
-	max-height:494px;
+	padding: 0 6px;
+	margin: 25px 0 50px 7px;
+	background: darkviolet;
 }
 .title{
 	font-family:'Conv_MyriadProSemibold','Conv_MyriadProBold','Conv_MyriadProRegular', serif;
 	font-size:18px;
 	padding-top: 3px;
+}
+.envelope {
+	max-width:351px;
+	max-height:496px;
 }
 .last-name{
 	font-family:'Conv_MyriadProRegular','Conv_MyriadProBold','Conv_MyriadProSemibold', serif;
@@ -252,8 +252,7 @@ h4{
 	font-family:'Conv_MyriadProRegular','Conv_MyriadProBold','Conv_MyriadProSemibold', serif;
 	font-size:12px;
 	border-bottom:1px solid #ebebeb;
-	padding-bottom: 19px;
-	padding-top: 5px;
+	padding: 5px 0 19px 0;
 	line-height:17px;
 }
 .the-first-publication:last-child{
@@ -268,9 +267,9 @@ h4{
 	width:198px;
 	background:#fafafa;
 	float:left;
-	padding-left: 13px;
-	margin-top: 25px;
-	padding-bottom:20px;
+	padding: 0 6px;
+	margin: 25px 0 0 7px;
+	background: navy;
 }
 .nomination{
 	color:#6a6a6a;
@@ -304,24 +303,17 @@ h4{
 	border-bottom:1px solid #ebebeb;
 	padding-bottom:7px;
 	line-height:17px;
+	background: darkblue;
 }
 .recent-publications:last-child{
 	border:none;
 }
-.night{
-	max-width:185px;
-	max-height:256px;
-	padding-top:13px;
-}
 .new-authors{
 	width:204px;
 	float:left;
-	padding-left:6px;
-	margin-top: 25px;
-}
-.notebook{
-	max-width:200px;
-	max-height:198px;
+	padding: 0 6px;
+	margin: 25px 0 0 7px;
+	background: orangered;
 }
 .question{
 	border-bottom: 1px solid #ebebeb;
@@ -336,10 +328,9 @@ h4{
 	color:#6a6a6a;
 	padding-top: 16px;
 }
-.whisker-whisker{
-	max-width:98px;
-	max-height:99px;
-	padding-top:17px;
+.photo{
+	padding-left:6px;
+	margin-left:13px;
 }
 .names{
 	font-family:'Conv_MyriadProSemibold','Conv_MyriadProBold','Conv_MyriadProRegular', serif;
@@ -350,6 +341,7 @@ h4{
 	color:#c8c8c8;
 	font-size:14px;
 	font-family:'Conv_MyriadProRegular','Conv_MyriadProBold','Conv_MyriadProSemibold', serif;
+	padding-bottom: 7px;
 }
 .list-of-authors{
 	font-family:'Conv_MyriadProRegular','Conv_MyriadProBold','Conv_MyriadProSemibold', serif;
@@ -362,19 +354,7 @@ h4{
 .list-of-authors:last-child{
 	border:none;
 }
-.scribe-scribe{
-	max-width:101px;
-	max-height:99px;
-	padding-top:9px;
-}
-.penman{
-	max-width:99px;
-	max-height:101px;
-	padding-top:9px;
-}
-.option {
-	clear:both;
-}
+
 /*
 =================End  Page Index===========
 */

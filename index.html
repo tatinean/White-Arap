@@ -8,8 +8,8 @@
 		<link rel="stylesheet" type="text/css" href="media/index.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-		<script type ="text/javascript" src ="jquery.masonry.min.js"></script>
-		<script type ="text/javascript" src ="modernizr-transitions.js">
+		<script type ="text/javascript" src ="js/jquery.masonry.min.js"></script>
+		<script type ="text/javascript" src ="js/modernizr-transitions.js">
 			$(document).ready(function () {
 				$('.wrapper').masonry({
 					itemSelector: '.side-bar,.publication,.recent-works,.new-authors',
@@ -26,6 +26,14 @@
 			$(".recent-publications:last-child").css("border", "none");
 			$(".list-of-authors:last-child").css("border", "none");
 		</script>
+		<script>
+			$(document).ready(function() {
+				$(".side-bar ul li : odd " )
+				$(".side-bar a .nav").click (function(){
+					$(this).parent().next().slideToggle()
+				})
+			})
+		</script>
 	</head>
 	<body>
 		<div class="wrapper">
@@ -34,6 +42,7 @@
 		</div>
 		<div class="index-content">
 		<div class="side-bar">
+			<a href="#"><img src="images/nav-icon.png" alt="nav-icon" class="nav"/></a>
 			<ul class="list-info">
 				<li><a href="#">О НАС</a></li>
 				<li><a href="#">КНИГИ</a></li>
@@ -112,10 +121,9 @@
 				</div>
 			</div>
 		</div>
-		</div>
 				<div class="publication">
 					<div class="publication-envelope">
-						<a href="#"><img src="images/envelope.png" alt="envelope" class="envelope"/></a>
+						<a href="#"><img src="images/envelope.png" alt="envelope"  class="envelope"/></a>
 						<div class="title">ЗАПАСНАЯ КНИЖКА</div>
 						<div class="last-name">Петр Бормор</div>
 						<p>
@@ -176,7 +184,7 @@
 						<div class="nomination">ПОСЛЕДНИЕ ПРОИЗВЕДЕНИЯ</div>
 					</div>
 					<div class="recent-works-picture">
-						<a href="#"><img src="images/picture.png" alt="picture" class="picture"/></a>
+						<a href="#"><img src="images/picture.png" alt="picture" width="187" height="257"class="index-photo"/></a>
 						<div class="title">ЗАПАСНАЯ КНИЖКА</div>
 						<div class="name-author">Петр Бормор</div>
 						<div class="edition">издание 2011г</div>
@@ -187,7 +195,7 @@
 						</p>
 					</div>
 					<div class="recent-works-night">
-						<a href="#"><img src="images/night.png" alt="night" class="night"/></a>
+						<a href="#"><img src="images/night.png" alt="night"width="178" height="254"class="index-photo"/></a>
 						<div class="title">ЗАПАСНАЯ КНИЖКА</div>
 						<div class="name-author">Петр Бормор</div>
 						<div class="edition">издание 2011г</div>
@@ -210,14 +218,15 @@
 				</div>
 				<div class="new-authors">
 					<div class="new-authors-notebook">
-						<a href="#"><img src="images/notebook.png" alt="notebook" class="notebook"/></a>
+						<a href="#"><img src="images/notebook.png" alt="notebook" width="200" height="198"class="index-photo"/></a>
 						<a class="question" href="#">Где купить?/Все сборники</a>
 					</div>
 					<div class="new-authors-the-authors-names">
 						<div class="the-authors-names">НОВЫЕ АВТОРЫ</div>
 					</div>
 					<div class="new-authors-whisker-whisker">
-						<a href="#"><img src="images/whisker-whisker.png" alt="whisker-whisker" class="whisker-whisker"/></a>
+						<a href="#"><img src="images/whisker-whisker.png" alt="whisker-whisker" width="101" height="99" class="photo"/></a>
+						<div class="point">
 						<div class="names">ПЕТР БОРМОР</div>
 						<div class="age">40 ЛЕТ</div>
 						<p>Четвертой книгой волшебных
@@ -229,9 +238,11 @@
 						   демиургов" и "Книга на третье",
 						   решил порадовать новыми притчами.
 						</p>
+						</div>
 					</div>
 					<div class="new-authors-scribe-scribe">
-						<a href="#"><img src="images/scribe-scribe.png" alt="scribe-scribe" class="scribe-scribe"/></a>
+						<a href="#"><img src="images/scribe-scribe.png" alt="scribe-scribe" width="101" height="99" class="photo"/></a>
+						<div class="point">
 						<div class="names">ПЕТР БОРМОР</div>
 						<div class="age">40 ЛЕТ</div>
 						<p>Четвертой книгой волшебных
@@ -243,9 +254,11 @@
 						   демиургов" и "Книга на третье",
 						   решил порадовать новыми притчами.
 						</p>
+						</div>
 					</div>
 					<div class="new-authors-penman">
-						<a href="#"><img src="images/penman.png" alt="penman" class="penman"/></a>
+						<a href="#"><img src="images/penman.png" alt="penman" width="101" height="99" class="photo"/></a>
+						<div class="point">
 						<div class="names">ПЕТР БОРМОР</div>
 						<div class="age">40 ЛЕТ</div>
 						<p>Четвертой книгой волшебных
@@ -257,6 +270,7 @@
 						   демиургов" и "Книга на третье",
 						   решил порадовать новыми притчами.
 						</p>
+						</div>
 					</div>
 				</div>
 				<div class="option"></div>
@@ -271,6 +285,7 @@
 					<li><a href="#">ПАРТНЕРЫ</a></li>
 				</ul>
 			</div>
+		</div>
 		</div>
 	</body>
 </html>
