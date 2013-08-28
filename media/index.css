@@ -3,34 +3,34 @@
 */
 @media (min-width: 1200px) {
 	.wrapper {
-		width:1160px;
+		width:1000px;
 		margin:0 auto;
 	}
 	.side-bar {
 		width:180px;
+		max-width:none;
 	}
 	.list-info {
 		width: 169px;
 	}
 	.publication {
 		width:351px;
-		padding:0;
-		margin-left:19px;
+		margin-left:13px;
 	}
 	.recent-works {
 		width:198px;
-		margin-left: 19px;
+		margin-left: 13px;
 	}
 	.new-authors {
 		width:204px;
-		margin-left: 16px;
-		padding:0;
+		margin-left: 13px;
 	}
 }
 @media (min-width: 980px) and (max-width: 1199px){
 	.wrapper {
-		width:940px;
+		width:960px;
 		margin:0 auto;
+		background: violet;
 	}
 	.side-bar {
 		width:180px;
@@ -40,18 +40,16 @@
 	}
 	.publication {
 		width:351px;
-		padding:0;
-		margin-left:4px;
+		margin-left:3px;
 	}
 	.recent-works {
-		width:188px;
-		margin-left: 6px;
-		padding:0;
+		width:191px;
+		margin-left: 4px;
+		padding: 0 0 6px 4px;
 	}
 	.new-authors {
-		width:202px;
+		width: 202px;
 		margin-left: 7px;
-		padding:0;
 	}
 }
 @media (min-width: 768px) and (max-width:979px){
@@ -66,51 +64,19 @@
 	}
 	.publication {
 		width:351px;
-		padding:0;
-		margin-left:10px;
+		margin-left:6px;
+		padding: 0 0 6px 5px;
 	}
 	.recent-works {
-		width:198px;
-		padding:0;
-		margin-left:9px;
+		width:191px;
+		margin-left:3px;
 	}
 	.new-authors{
-		width:748px;
+		width:202px;
 		float:left;
-		margin-right:6px;
-		padding:0;
-	}
-	.new-authors-notebook > a {
-		display: block;
-		text-align: center;
-		width: 100%;
-	}
-	.new-authors-notebook  .question{
-		padding: 0;
-		width: 100%;
-	}
-	.new-authors-notebook {
-		padding:0;
 		margin:0;
 	}
-	.new-authors-whisker-whisker {
-		padding:0;
-		width:24%;
-		float:left;
-		margin-bottom:30px;
-	}
-	.new-authors-scribe-scribe {
-		width:45%;
-		float:left;
-		margin-left:11px;
-		padding-top: 8px;
-	}
-	.new-authors-penman {
-		margin-left:10px;
-		width:28%;
-		float:left;
-		padding:5px 0;
-	}
+
 	.new-authors-notebook a{
 		padding:0;
 		margin:0;
