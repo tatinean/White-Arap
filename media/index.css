@@ -38,6 +38,9 @@
 	.list-info {
 		width: 169px;
 	}
+	.nav {
+		display:none;
+	}
 	.publication {
 		width:351px;
 		margin-left:4px;
@@ -234,14 +237,35 @@
 		text-align:justify;
 		width:300px;
 	}
+	.nav{
+		position: absolute;
+		margin-left: -4px;
+		margin-top: 10px;
+	}
 	.list-info {
 		display: none;
 		text-align:left;
 		width: 169px;
 	}
 	.header-form {
-		width:180px;
-		text-align:left;
+		width:261px;
+		margin-top: 10px;
+	}
+	.header-form h4 {
+		display: none;
+	}
+	.header-form form{
+		width: 268px;
+		margin-top: 0px;
+		margin-left: 31px;
+	}
+	.author{
+		max-width: 267px;
+		max-height: 28px;
+	}
+	.submit{
+		max-width: 75px;
+		max-height: 28px;
 	}
 	.publication {
 		padding:0 10px;
