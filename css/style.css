@@ -29,6 +29,87 @@
 /*
 ======================================= End Font Faces =================================================
 */
+
+
+/*
+================================ Sprites =======================================
+*/
+
+.sprite {
+	background: url(../images/sprite.png) no-repeat;
+}
+.sprite_church {
+	background-position: 0 0;
+}
+.sprite_logotip {
+	background-position: 0 -521px;
+}
+.sprite_ggoogle {
+	background-position: -314px -521px;
+}
+.sprite_twitter {
+	background-position: -349px -521px;
+}
+.sprite_facebook {
+	background-position: -382px -521px;
+}
+.sprite_network {
+	background-position: -414px -521px;
+}
+.sprite_vkontakte {
+	background-position: -448px -521px;
+}
+.sprite_arrow-form {
+	background-position: -481px -521px;
+}
+.sprite_ico-social_vk {
+	background-position: -314px -557px;
+}
+.sprite_ico-social_tw {
+	background-position: -345px -557px;
+}
+.sprite_ico-social_p {
+	background-position: -376px -557px;
+}
+.sprite_ico-social_gp {
+	background-position: -407px -557px;
+}
+.sprite_ico-social_fb {
+	background-position: -438px -557px;
+}
+.sprite_authors-search {
+	background-position: -469px -557px;
+}
+.sprite_nav-icon {
+	background-position: -499px -557px;
+}
+.sprite_network-min {
+	background-position: -529px -557px;
+}
+.sprite_twitter-min {
+	background-position: -551px -557px;
+}
+.sprite_vkontakte-min {
+	background-position: -572px -557px;
+}
+.sprite_ggoogle-min {
+	background-position: -593px -557px;
+}
+.sprite_facebook-min {
+	background-position: -614px -557px;
+}
+.sprite_letter {
+	background-position: -481px -537px;
+}
+.sprite_arrow {
+	background-position: -516px -521px;
+}
+
+/*
+================================ End Sprites =======================================
+*/
+
+
 /* Basic Styles */
 body, div, h1, h2, h3,h4,h5,h6, p, ul,ol, li, a,img, form,input,blockquote {
 	margin: 0;
@@ -53,6 +134,11 @@ a{
 	text-decoration:none;
 	color:#b2b1b1;
 }
+h4{
+	color:#9a9a9a;
+	font-family:'Conv_MyriadProBold','Conv_MyriadProSemibold','Conv_MyriadProRegular', serif;
+	font-size:13px;
+}
 .wrapper{
 	width:1000px;
 	margin:0 auto;
@@ -66,7 +152,7 @@ a{
 h1{
 	overflow:hidden;
 	text-indent:-999px;
-	background: url("../images/logotip.png") scroll 0 0 transparent no-repeat;
+	/*background: url("../images/sprite.png") scroll 0 0 transparent no-repeat;*/
 	padding-top:26px;
 	width: 314px;
 	height: 83px;
@@ -76,15 +162,14 @@ h1{
 .side-bar{
 	width:180px;
 	float:left;
-	padding: 0 6px;
-	margin-top: 25px;
-	line-height: 24px;
+	margin: 25px 0 0 18px;
+
 	background: rosybrown;
 }
 .list-info{
 	color:#2c2b2b;
 	width: 169px;
-	line-height: 26px;
+	line-height: 25px;
 }
 .list-info li {
 	display: block;
@@ -103,14 +188,13 @@ h1{
 	background-color: #8c99a4;
 }
 .header-form{
-	line-height: 14px;
+	margin-top: 20px;
 }
-h4{
-	padding-top:20px;
+h4.search {
+	padding-bottom: 8px;
 	color:#9a9a9a;
 	font-family:'Conv_MyriadProBold','Conv_MyriadProSemibold','Conv_MyriadProRegular', serif;
 	font-size:13px;
-	padding-bottom:6px;
 }
 .author{
 	border: 1px solid #a8a8a8;
@@ -122,17 +206,24 @@ h4{
 .submit{
 	background:#000;
 	color:#dddddd;
-	margin-top:6px;
+	margin-top:8px;
 	width:88px;
 	height:32px;
 	font-family:'Conv_MyriadProBold','Conv_MyriadProSemibold','Conv_MyriadProRegular', serif;
 	font-size:12px;
 	cursor:pointer;
 }
+.alphabet-authors{
+	padding-top:32px;
+	color:#9a9a9a;
+	font-family:'Conv_MyriadProBold','Conv_MyriadProSemibold','Conv_MyriadProRegular', serif;
+	font-size:13px;
+	padding-bottom:10px;
+}
 .alphabet{
-	float:left;
 	font-family:'Conv_MyriadProRegular','Conv_MyriadProBold','Conv_MyriadProSemibold', serif;
 	font-size: 12px;
+	line-height: 28px;
 }
 .alphabet li{
 	display: inline-block;
@@ -153,21 +244,25 @@ h4{
 	-moz-border-radius: 30px;
 	border-radius:30px;
 	behavior:url(border-radius/border-radius.htc);
-	padding:2px 6px;
+	padding:1px 4px;
 }
-.about-us{
-	line-height:17px;
+.about-us {
+	line-height:16px;
 	font-family:'Conv_MyriadProRegular','Conv_MyriadProBold','Conv_MyriadProSemibold', serif;
 	font-size:12px;
 }
-.about-us h4{
-	line-height: 46px;
-}
-.about-us p{
+h4 {
 
 }
 .social {
-	padding:13px 0 0 0;
+	padding:15px 0 0 3px;
+}
+.social a {
+	display: block;
+	width: 30px;
+	height: 29px;
+	float: left;
+	margin-right: 1px;
 }
 .facebook,.twitter,.network,.vkontakte,.ggoogle{
 	display:inline-block;
@@ -228,20 +323,15 @@ h4{
 ======Start Page Index========
 */
 .publication{
-	width: 349px;
+	width: 352px;
 	float:left;
-	padding: 0 6px;
-	margin: 25px 0 50px 7px;
+	margin: 25px 0 50px 19px;
 	background: darkviolet;
 }
 .title{
 	font-family:'Conv_MyriadProSemibold','Conv_MyriadProBold','Conv_MyriadProRegular', serif;
 	font-size:18px;
 	padding-top: 3px;
-}
-.envelope {
-	max-width:351px;
-	max-height:496px;
 }
 .last-name{
 	font-family:'Conv_MyriadProRegular','Conv_MyriadProBold','Conv_MyriadProSemibold', serif;
@@ -264,12 +354,11 @@ h4{
 	padding-top: 18px;
 }
 .recent-works{
-	width:198px;
+	width:188px;
 	background:#fafafa;
 	float:left;
-	padding: 0 6px;
-	margin: 25px 0 0 7px;
-	background: navy;
+	margin: 25px 0 0 13px;
+	background:navy;
 }
 .nomination{
 	color:#6a6a6a;
@@ -309,10 +398,9 @@ h4{
 	border:none;
 }
 .new-authors{
-	width:204px;
+	width:198px;
 	float:left;
-	padding: 0 6px;
-	margin: 25px 0 0 7px;
+	margin: 25px 16px 0 16px;
 	background: orangered;
 }
 .question{
@@ -582,9 +670,6 @@ h4{
 	font-family: 'Conv_MyriadProSemibold' ,'Conv_MyriadProBold','Conv_MyriadProRegular',serif;
 	font-size:24px;
 	font-weight: bold;
-}
-.about-us,.alphabet,.social{
-	margin-top:0;
 }
 .title-competitions{
 	font-family:'Conv_MyriadProSemibold' ,'Conv_MyriadProBold','Conv_MyriadProRegular',serif;
@@ -950,3 +1035,5 @@ textarea{
 /*
 ================================End Page Contact===============================
 */
+
+
