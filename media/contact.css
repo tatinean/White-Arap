@@ -1,236 +1,353 @@
 /*
 ======Start Page Authors========
 */
-@media (min-width: 1200px) {
-	.wrapper {
-		width:1160px;
-		margin:0 auto;
+@media (min-width: 1200px)
+{
+	.wrapper
+	{
+		width: 1160px;
+		margin: 0 auto;
 	}
-	.side-bar {
-		width:180px;
+
+	.side-bar
+	{
+		width: 180px;
 	}
-	.list-info {
+
+	.list-info
+	{
 		width: 169px;
 	}
 
 }
-@media (min-width: 980px) and (max-width: 1199px){
-	.wrapper {
-		width:940px;
-		margin:0 auto;
+
+@media (min-width: 980px) and (max-width: 1199px)
+{
+	.wrapper
+	{
+		width: 940px;
+		margin: 0 auto;
 	}
-	.index-contact {
-		width:940px;
+
+	.index-contact
+	{
+		width: 940px;
 	}
-	.side-bar {
-		width:180px;
+
+	.side-bar
+	{
+		width: 180px;
 	}
-	.list-info {
+
+	.list-info
+	{
 		width: 169px;
 	}
-	.main-content{
+
+	.main-content
+	{
 		float: left;
 		width: 747px;
 		margin: 25px 0 0 13px;
 	}
-	.content-of-map {
-		width:747px;
-		height:869px;
-		margin:0;
+
+	.content-of-map
+	{
+		width: 747px;
+		height: 869px;
+		margin: 0;
 	}
-	.map {
-		max-width:435px;
+
+	.map
+	{
+		max-width: 435px;
 	}
-	.main-head {
-		width:708px;
+
+	.main-head
+	{
+		width: 708px;
 	}
-	.church {
+
+	.church
+	{
 		width: 750px;
 		margin-top: 48px;
 	}
 }
-@media (min-width: 768px) and (max-width:979px){
-	.wrapper {
-		width:748px;
+
+@media (min-width: 768px) and (max-width:979px)
+{
+	.wrapper
+	{
+		width: 748px;
 	}
-	.index-contact {
-		width:748px;
+
+	.index-contact
+	{
+		width: 748px;
 	}
-	.side-bar {
-		width:180px;
+
+	.side-bar
+	{
+		width: 180px;
 	}
-	.list-info {
+
+	.list-info
+	{
 		width: 169px;
 	}
-	.main-head-form  {
-		width:537px;
+
+	.main-head-form
+	{
+		width: 537px;
 	}
-	.main-content{
+
+	.main-content
+	{
 		float: left;
 		width: 555px;
 		margin: 25px 0 0 13px;
 	}
-	.content-of-map {
-		max-width:516px;
-		margin:0;
+
+	.content-of-map
+	{
+		max-width: 516px;
+		margin: 0;
 	}
-	.contacts {
-		float:left;
+
+	.contacts
+	{
+		float: left;
 	}
-	.map {
-		max-width:462px;
-		margin-top:0;
-		position:static;
+
+	.map
+	{
+		max-width: 462px;
+		margin-top: 0;
+		position: static;
 	}
-	.church{
-		width:555px;
+
+	.church
+	{
+		width: 555px;
 		margin-top: -11px;
 	}
-	.main-head {
-		width:536px;
+
+	.main-head
+	{
+		width: 536px;
 	}
-	.info-footer {
+
+	.info-footer
+	{
 		text-align: center;
 		padding-top: 44px;
-		font-family: 'Conv_MyriadProRegular','Conv_MyriadProBold','Conv_MyriadProSemibold', serif;
+		font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
 		font-size: 11px;
 		color: #2c2b2b;
 	}
 }
-@media (min-width:480px) and (max-width:767px){
-	.wrapper {
-		width:400px;
-	}
-	.index-contact {
-		width:400px;
-	}
-	.side-bar {
-		float:left;
-		width:400px;
-	}
-	.list-info {
+
+@media (min-width:480px) and (max-width:767px)
+{
+	.wrapper
+	{
 		width: 400px;
 	}
-	.header-form {
-		width:180px;
-		text-align:left;
+
+	.index-contact
+	{
+		width: 400px;
 	}
-	.main-content {
-		margin-left:0;
-		width:400px;
-		float:none;
+
+	.side-bar
+	{
+		float: left;
+		width: 400px;
 	}
-	.main-head {
-		width:400px;
+
+	.list-info
+	{
+		width: 400px;
 	}
-	.main-head-form {
-		width:400px;
+
+	.header-form
+	{
+		width: 180px;
+		text-align: left;
 	}
-	textarea{
-		width:393px;
-		float:left;
+
+	.main-content
+	{
+		margin-left: 0;
+		width: 400px;
+		float: none;
 	}
-	.content-of-map {
-		width:400px;
-		margin:0;
+
+	.main-head
+	{
+		width: 400px;
 	}
-	.contacts {
-		float:left;
+
+	.main-head-form
+	{
+		width: 400px;
 	}
-	.map {
-		position:static;
-		max-width:400px;
+
+	textarea
+	{
+		width: 393px;
+		float: left;
 	}
-	.church {
-		max-width:400px;
+
+	.content-of-map
+	{
+		width: 400px;
+		margin: 0;
+	}
+
+	.contacts
+	{
+		float: left;
+	}
+
+	.map
+	{
+		position: static;
+		max-width: 400px;
+	}
+
+	.church
+	{
+		max-width: 400px;
 		margin-top: -11px;
 	}
-	.info-footer {
+
+	.info-footer
+	{
 		color: #2C2B2B;
-		font-family: 'Conv_MyriadProRegular','Conv_MyriadProBold','Conv_MyriadProSemibold',serif;
+		font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
 		font-size: 11px;
-		padding:44px 0 0 29px;;
+		padding: 44px 0 0 29px;;
 
 	}
-	.info-footer li {
+
+	.info-footer li
+	{
 		line-height: 24px;
 		margin-right: 29px;
 	}
 }
-@media (min-width:320px) and (max-width:479px){
-	.wrapper {
-		width:320px;
-		background:green;
+
+@media (min-width:320px) and (max-width:479px)
+{
+	.wrapper
+	{
+		width: 320px;
+		background: green;
 	}
-	.index-contact {
-		width:320px;
+
+	.index-contact
+	{
+		width: 320px;
 	}
-	.side-bar {
-		margin-top:0;
-		margin-bottom:30px;
-		padding:0;
-		text-align:justify;
-		width:320px;
-		background:yellow;
+
+	.side-bar
+	{
+		margin-top: 0;
+		margin-bottom: 30px;
+		padding: 0;
+		text-align: justify;
+		width: 320px;
+		background: yellow;
 	}
-	.list-info {
-		text-align:left;
+
+	.list-info
+	{
+		text-align: left;
 		width: 169px;
 	}
-	.header-form {
-		width:180px;
-		text-align:left;
+
+	.header-form
+	{
+		width: 180px;
+		text-align: left;
 	}
-	.name-right {
-		margin-left:0;
+
+	.name-right
+	{
+		margin-left: 0;
 	}
-	.submit-content {
-		margin-left:0;
-		float:left;
+
+	.submit-content
+	{
+		margin-left: 0;
+		float: left;
 	}
-	.main-content {
-		margin-left:0;
-		width:300px;
-		float:none;
+
+	.main-content
+	{
+		margin-left: 0;
+		width: 300px;
+		float: none;
 	}
-	.main-head {
-		width:320px;
+
+	.main-head
+	{
+		width: 320px;
 	}
-	.main-head-form {
-		width:300px;
-		line-height:45px;
+
+	.main-head-form
+	{
+		width: 300px;
+		line-height: 45px;
 	}
-	textarea{
-		width:290px;
-		float:left;
+
+	textarea
+	{
+		width: 290px;
+		float: left;
 	}
-	.content-of-map {
-		width:300px;
-		margin:0;
+
+	.content-of-map
+	{
+		width: 300px;
+		margin: 0;
 	}
-	.contacts {
-		float:left;
+
+	.contacts
+	{
+		float: left;
 	}
-	.map {
-		position:static;
-		max-width:320px;
+
+	.map
+	{
+		position: static;
+		max-width: 320px;
 	}
-	.church {
-		max-width:320px;
+
+	.church
+	{
+		max-width: 320px;
 		margin-top: -11px;
 	}
-	.info-footer {
+
+	.info-footer
+	{
 		color: #2C2B2B;
-		font-family: 'Conv_MyriadProRegular','Conv_MyriadProBold','Conv_MyriadProSemibold',serif;
+		font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
 		font-size: 11px;
 		padding-top: 44px;
-		padding-left:28px;
+		padding-left: 28px;
 	}
-	.info-footer li {
+
+	.info-footer li
+	{
 		line-height: 24px;
 		margin-right: 29px;
 	}
 }
+
 /*
 ======End Page Authors========
 */

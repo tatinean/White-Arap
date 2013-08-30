@@ -2,7 +2,8 @@
 // Copyright (c) 2012 Igor Kozlov
 // i10k.ru
 
-;(function ($, window, document, undefined) {
+;
+(function ($, window, document, undefined) {
 	var $window = $(window);
 	var defaults = {
 		syntax: "<div class=\"ik_select_link\"><span class=\"ik_select_link_text\"></span></div><div class=\"ik_select_block\"><div class=\"ik_select_list\"></div></div>",
@@ -14,11 +15,16 @@
 		ddMaxHeight: 200,
 		filter: false,
 		nothingFoundText: "Nothing found",
-		onShow: function () {},
-		onHide: function () {},
-		onKeyUp: function () {},
-		onKeyDown: function () {},
-		onHoverMove: function () {}
+		onShow: function () {
+		},
+		onHide: function () {
+		},
+		onKeyUp: function () {
+		},
+		onKeyDown: function () {
+		},
+		onHoverMove: function () {
+		}
 	};
 
 	var selectOpened = $([]); // currently opened select
@@ -60,10 +66,10 @@
 		ikselect.listItemsOriginal = $([]); // contains original list items when filtering
 		ikselect.nothingFoundText = $("<div class=\"ik_nothing_found\"/>").html(ikselect.options.nothingFoundText);
 
-		if (ikselect.options.filter && ! $.browser.mobile) {
+		if (ikselect.options.filter && !$.browser.mobile) {
 			ikselect.filterWrap = $(".ik_select_filter_wrap", ikselect.fakeSelect);
 
-			if (! ikselect.filterWrap.length) {
+			if (!ikselect.filterWrap.length) {
 				ikselect.filterWrap = $("<div class=\"ik_select_filter_wrap\"/>");
 			}
 
@@ -123,7 +129,7 @@
 					return;
 				}
 				ikselect.show_block();
-				if (ikselect.options.filter && ! $.browser.mobile) {
+				if (ikselect.options.filter && !$.browser.mobile) {
 					filter.focus();
 				} else {
 					select.focus();
@@ -196,12 +202,12 @@
 							ikselect.nothingFoundText.remove();
 							ikselect.listOptgroupItems.each(function () {
 								var optgroup = $(this);
-								if (! $("> ul > li:visible", optgroup).length) {
+								if (!$("> ul > li:visible", optgroup).length) {
 									optgroup.hide();
 								}
 							});
 
-							if (! ikselect.listItems.filter(ikselect.hover).length && ikselect.listItems.length) {
+							if (!ikselect.listItems.filter(ikselect.hover).length && ikselect.listItems.length) {
 								ikselect._move_to(ikselect.listItems.eq(0));
 							}
 
@@ -315,7 +321,7 @@
 					case 32: //space
 						if (type === "keydown" && $(this).is(select)) {
 							event.preventDefault();
-							if (! block.is(":visible")) {
+							if (!block.is(":visible")) {
 								link.click();
 							} else {
 								ikselect._select_real_option();
@@ -364,7 +370,7 @@
 			select.after(fakeSelect);
 
 			// appending filter if needed
-			if (ikselect.options.filter && ! $.browser.mobile) {
+			if (ikselect.options.filter && !$.browser.mobile) {
 				list.prepend(ikselect.filterWrap);
 			}
 
@@ -393,7 +399,7 @@
 
 			var parentWidth, liFirst, liPaddings, linkPaddings;
 
-			if (ikselect.options.filter && ! $.browser.mobile) {
+			if (ikselect.options.filter && !$.browser.mobile) {
 				filter.hide();
 			}
 
@@ -439,7 +445,7 @@
 				}
 			}
 
-			if (ikselect.options.filter && ! $.browser.mobile) {
+			if (ikselect.options.filter && !$.browser.mobile) {
 				filter.show().outerWidth(ikselect.filterWrap.width());
 			}
 
@@ -569,7 +575,7 @@
 			var block = ikselect.block;
 			var select = ikselect.select;
 
-			if (ikselect.options.filter && ! $.browser.mobile) {
+			if (ikselect.options.filter && !$.browser.mobile) {
 				ikselect.filter.val("").keyup();
 			}
 
@@ -605,7 +611,7 @@
 			var blockOffset, blockOuterWidth, blockOuterHeight, windowWidth, windowHeight, windowScroll;
 			var left, top, scrollTop;
 
-			if (selectOpened.is(ikselect.select) || ! ikselect.listItems.length) {
+			if (selectOpened.is(ikselect.select) || !ikselect.listItems.length) {
 				return;
 			} else if (selectOpened.length) {
 				selectOpened.data("plugin_ikSelect").hide_block();
@@ -928,7 +934,7 @@
 			var listInner = ikselect.listInner;
 			var jqObjTopLine, jqObjBottomLine;
 
-			if (! block.is(":visible") && $.browser.webkit) {
+			if (!block.is(":visible") && $.browser.webkit) {
 				ikselect.show_block();
 				return this;
 			}
@@ -936,13 +942,13 @@
 			ikselect.hover.removeClass("ik_select_hover");
 			jqObj.addClass("ik_select_hover");
 			ikselect.hover = jqObj;
-			if (! $.browser.webkit) {
+			if (!$.browser.webkit) {
 				ikselect.active.removeClass("ik_select_active");
 				jqObj.addClass("ik_select_active");
 				ikselect.active = jqObj;
 			}
-			if (! block.is(":visible") || $.browser.mozilla) {
-				if (! $.browser.mozilla) {
+			if (!block.is(":visible") || $.browser.mozilla) {
+				if (!$.browser.mozilla) {
 					select.val($(".ik_select_option", jqObj).data("title"));
 					select.change();
 				}
@@ -978,7 +984,7 @@
 					position: "relative"
 				});
 
-				if (! $.data(listInner, "ik_select_hasScrollbar")) {
+				if (!$.data(listInner, "ik_select_hasScrollbar")) {
 					if (ddFullWidth) {
 						block.width(block.width() + scrollbarWidth);
 						listInner.width(listInner.width() + scrollbarWidth);
@@ -1075,7 +1081,7 @@
 
 	// hide fake select list when clicking outside of it
 	$(document).bind("click.ikSelect", function (event) {
-		if (! shownOnPurpose && selectOpened.length && ! $(event.target).closest(".ik_select").length && ! $(event.target).closest(".ik_select_block").length) {
+		if (!shownOnPurpose && selectOpened.length && !$(event.target).closest(".ik_select").length && !$(event.target).closest(".ik_select_block").length) {
 			selectOpened.ikSelect("hide_dropdown");
 			selectOpened = $([]);
 		}

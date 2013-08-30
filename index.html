@@ -8,8 +8,8 @@
 		<link rel="stylesheet" type="text/css" href="media/index.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-		<script type ="text/javascript" src ="js/jquery.masonry.min.js"></script>
-		<script type ="text/javascript" src ="js/modernizr-transitions.js">
+		<script type="text/javascript" src="js/jquery.masonry.min.js"></script>
+		<script type="text/javascript" src="js/modernizr-transitions.js">
 			$(document).ready(function () {
 				$('.wrapper').masonry({
 					itemSelector: '.side-bar,.publication,.recent-works,.new-authors',
@@ -22,14 +22,14 @@
 					}
 				});
 			});
-			$(".the-first-publication:last-child").css("border", "none");
+			$("publication-date:last-child").css("border", "none");
 			$(".recent-publications:last-child").css("border", "none");
 			$(".list-of-authors:last-child").css("border", "none");
 		</script>
 		<script>
-			$(document).ready(function() {
-				$(".side-bar ul li : odd " )
-				$(".side-bar a .nav").click (function(){
+			$(document).ready(function () {
+				$(".side-bar ul li : odd ")
+				$(".side-bar a .nav").click(function () {
 					$(this).parent().next().slideToggle()
 				})
 			})
@@ -37,93 +37,93 @@
 	</head>
 	<body>
 		<div class="wrapper">
-		<div class="header">
-			<h1 class="sprite sprite_logotip">Белый Арап</h1>
-		</div>
-		<div class="index-content">
-		<div class="side-bar">
-			<!--<a href="#"><img src="images/nav-icon.png" alt="nav-icon" class="nav"/></a>-->
-			<ul class="list-info">
-				<li><a href="#">О НАС</a></li>
-				<li><a href="#">КНИГИ</a></li>
-				<li><a href="#">КАТАЛОГ ПРОИЗВЕДЕНИЙ</a></li>
-				<li><a href="#">АВТОРЫ</a></li>
-				<li><a href="#">КОНКУРСЫ</a></li>
-				<li><a href="#">НОВОСТИ</a></li>
-				<li><a href="#">ПАРТНЕРЫ</a></li>
-			</ul>
-			<div class="header-form">
-				<h4 class="search">ПОИСК</h4>
-				<form>
-					<input type="text" name="author" value="" class="author">
-					<input type="submit" name="author" value="ПОИСК" class="submit">
-				</form>
+			<div class="header">
+				<h1 class="sprite sprite_logotip">Белый Арап</h1>
 			</div>
-			<div class="alphabet-authors">
-				<h4 class="authors">АВТОРЫ</h4>
-				<ul class="alphabet">
-					<li><a href="#">А</a></li>
-					<li><a class="letter" href="#">Б</a></li>
-					<li><a href="#">В</a></li>
-					<li><a href="#">Г</a></li>
-					<li><a href="#">Д</a></li>
-					<li><a href="#">Е</a></li>
-					<li><a href="#">Ё</a></li>
-					<li><a href="#">Ж</a></li>
-					<li><a href="#">З</a></li>
-					<li><a href="#">И</a></li>
-					<li><a href="#">Й</a></li>
-					<li><a href="#">К</a></li>
-					<li><a href="#">Л</a></li>
-					<li><a href="#">М</a></li>
-					<li><a href="#">Н</a></li>
-					<li><a href="#">О</a></li>
-					<li><a href="#">П</a></li>
-					<li><a href="#">Р</a></li>
-					<li><a href="#">С</a></li>
-					<li><a href="#">Т</a></li>
-					<li><a href="#">У</a></li>
-					<li><a href="#">Ф</a></li>
-					<li><a href="#">Х</a></li>
-					<li><a href="#">Ц</a></li>
-					<li><a href="#">Ч</a></li>
-					<li><a href="#">Ш</a></li>
-					<li><a href="#">Щ</a></li>
-					<li><a href="#">Ъ</a></li>
-					<li><a href="#">Ы</a></li>
-					<li><a href="#">Ь</a></li>
-					<li><a href="#">Э</a></li>
-					<li><a href="#">Ю</a></li>
-					<li><a href="#">Я</a></li>
-				</ul>
-			</div>
-			<div class="about-us">
-				<h4>О НАС</h4>
-				<p>
-					Четвертой книгой волшебных
-					историй Петр Бормор,
-					сказачник-философ,обожаемый
-					человечеством за три
-					опубликованных уже сборника—
-					"Многобукаф".Книга для","Игры
-					демиургов" и "Книга на третье",
-					решил порадовать новыми притчами всех и сразу.
-				</p>
-			</div>
-			<div class="social-networks">
-				<h4>МЫ В СОЦСЕТЯХ</h4>
-				<div class="social">
-					<a href="#" class="sprite sprite_ico-social_fb "></a>
-					<a href="#" class="sprite sprite_ico-social_tw"></a>
-					<a href="#" class="sprite sprite_ico-social_p"></a>
-					<a href="#" class="sprite sprite_ico-social_vk"></a>
-					<a href="#" class="sprite sprite_ico-social_gp"></a>
+			<div class="index-content">
+				<div class="side-bar">
+					<!--<a href="#"><img src="images/nav-icon.png" alt="nav-icon" class="nav"/></a>-->
+					<ul class="list-info">
+						<li><a href="#">О НАС</a></li>
+						<li><a href="#">КНИГИ</a></li>
+						<li><a href="#">КАТАЛОГ ПРОИЗВЕДЕНИЙ</a></li>
+						<li><a href="#">АВТОРЫ</a></li>
+						<li><a href="#">КОНКУРСЫ</a></li>
+						<li><a href="#">НОВОСТИ</a></li>
+						<li><a href="#">ПАРТНЕРЫ</a></li>
+					</ul>
+					<div class="header-form">
+						<h4 class="search">ПОИСК</h4>
+						<form>
+							<input type="text" name="author" value="" class="author">
+							<input type="submit" name="author" value="ПОИСК" class="submit">
+						</form>
+					</div>
+					<div class="alphabet-authors">
+						<h4 class="authors">АВТОРЫ</h4>
+						<ul class="alphabet">
+							<li><a href="#">А</a></li>
+							<li><a class="letter" href="#">Б</a></li>
+							<li><a href="#">В</a></li>
+							<li><a href="#">Г</a></li>
+							<li><a href="#">Д</a></li>
+							<li><a href="#">Е</a></li>
+							<li><a href="#">Ё</a></li>
+							<li><a href="#">Ж</a></li>
+							<li><a href="#">З</a></li>
+							<li><a href="#">И</a></li>
+							<li><a href="#">Й</a></li>
+							<li><a href="#">К</a></li>
+							<li><a href="#">Л</a></li>
+							<li><a href="#">М</a></li>
+							<li><a href="#">Н</a></li>
+							<li><a href="#">О</a></li>
+							<li><a href="#">П</a></li>
+							<li><a href="#">Р</a></li>
+							<li><a href="#">С</a></li>
+							<li><a href="#">Т</a></li>
+							<li><a href="#">У</a></li>
+							<li><a href="#">Ф</a></li>
+							<li><a href="#">Х</a></li>
+							<li><a href="#">Ц</a></li>
+							<li><a href="#">Ч</a></li>
+							<li><a href="#">Ш</a></li>
+							<li><a href="#">Щ</a></li>
+							<li><a href="#">Ъ</a></li>
+							<li><a href="#">Ы</a></li>
+							<li><a href="#">Ь</a></li>
+							<li><a href="#">Э</a></li>
+							<li><a href="#">Ю</a></li>
+							<li><a href="#">Я</a></li>
+						</ul>
+					</div>
+					<div class="about-us">
+						<h4>О НАС</h4>
+						<p>
+							Четвертой книгой волшебных
+							историй Петр Бормор,
+							сказачник-философ,обожаемый
+							человечеством за три
+							опубликованных уже сборника—
+							"Многобукаф".Книга для","Игры
+							демиургов" и "Книга на третье",
+							решил порадовать новыми притчами всех и сразу.
+						</p>
+					</div>
+					<div class="social-networks">
+						<h4>МЫ В СОЦСЕТЯХ</h4>
+						<div class="social">
+							<a href="#" class="sprite sprite_ico-social_fb "></a>
+							<a href="#" class="sprite sprite_ico-social_tw"></a>
+							<a href="#" class="sprite sprite_ico-social_p"></a>
+							<a href="#" class="sprite sprite_ico-social_vk"></a>
+							<a href="#" class="sprite sprite_ico-social_gp"></a>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
 				<div class="publication">
 					<div class="publication-envelope">
-						<a href="#"><img src="images/envelope.png" alt="envelope" width="351" height="496"/></a>
+						<a href="#"><img src="images/envelope.png" alt="envelope" class="envelope"/></a>
 						<div class="title">ЗАПАСНАЯ КНИЖКА</div>
 						<div class="last-name">Петр Бормор</div>
 						<p>
@@ -184,7 +184,7 @@
 						<div class="nomination">ПОСЛЕДНИЕ ПРОИЗВЕДЕНИЯ</div>
 					</div>
 					<div class="recent-works-picture">
-						<a href="#"><img src="images/picture.png" alt="picture" width="187" height="257"class="index-photo"/></a>
+						<a href="#"><img src="images/picture.png" alt="picture" class="index-photo"/></a>
 						<div class="title">ЗАПАСНАЯ КНИЖКА</div>
 						<div class="name-author">Петр Бормор</div>
 						<div class="edition">издание 2011г</div>
@@ -195,7 +195,7 @@
 						</p>
 					</div>
 					<div class="recent-works-night">
-						<a href="#"><img src="images/night.png" alt="night"width="178" height="254"class="index-photo"/></a>
+						<a href="#"><img src="images/night.png" alt="night" class="index-photo"/></a>
 						<div class="title">ЗАПАСНАЯ КНИЖКА</div>
 						<div class="name-author">Петр Бормор</div>
 						<div class="edition">издание 2011г</div>
@@ -218,63 +218,63 @@
 				</div>
 				<div class="new-authors">
 					<div class="new-authors-notebook">
-						<a href="#"><img src="images/notebook.png" alt="notebook" width="200" height="198"class="index-photo"/></a>
+						<a href="#"><img src="images/notebook.png" alt="notebook" class="index-photo"/></a>
 						<a class="question" href="#">Где купить?/Все сборники</a>
 					</div>
 					<div class="new-authors-the-authors-names">
 						<div class="the-authors-names">НОВЫЕ АВТОРЫ</div>
 					</div>
 					<div class="new-authors-whisker-whisker">
-						<a href="#"><img src="images/whisker-whisker.png" alt="whisker-whisker" width="101" height="99" class="photo"/></a>
+						<a href="#"><img src="images/whisker-whisker.png" alt="whisker-whisker" class="photo"/></a>
 						<div class="point">
-						<div class="names">ПЕТР БОРМОР</div>
-						<div class="age">40 ЛЕТ</div>
-						<p>Четвертой книгой волшебных
-						   историй Петр Бормор,
-						   сказачник-философ,обожаемый
-						   человечеством за три
-						   опубликованных уже сборника
-						   -"Многобукаф".Книга для","Игры
-						   демиургов" и "Книга на третье",
-						   решил порадовать новыми притчами.
-						</p>
+							<div class="names">ПЕТР БОРМОР</div>
+							<div class="age">40 ЛЕТ</div>
+							<p>Четвертой книгой волшебных
+							   историй Петр Бормор,
+							   сказачник-философ,обожаемый
+							   человечеством за три
+							   опубликованных уже сборника
+							   -"Многобукаф".Книга для","Игры
+							   демиургов" и "Книга на третье",
+							   решил порадовать новыми притчами.
+							</p>
 						</div>
 					</div>
 					<div class="new-authors-scribe-scribe">
-						<a href="#"><img src="images/scribe-scribe.png" alt="scribe-scribe" width="101" height="99" class="photo"/></a>
+						<a href="#"><img src="images/scribe-scribe.png" alt="scribe-scribe" class="photo"/></a>
 						<div class="point">
-						<div class="names">ПЕТР БОРМОР</div>
-						<div class="age">40 ЛЕТ</div>
-						<p>Четвертой книгой волшебных
-						   историй Петр Бормор,
-						   сказачник-философ,обожаемый
-						   человечеством за три
-						   опубликованных уже сборника
-						   -"Многобукаф".Книга для","Игры
-						   демиургов" и "Книга на третье",
-						   решил порадовать новыми притчами.
-						</p>
+							<div class="names">ПЕТР БОРМОР</div>
+							<div class="age">40 ЛЕТ</div>
+							<p>Четвертой книгой волшебных
+							   историй Петр Бормор,
+							   сказачник-философ,обожаемый
+							   человечеством за три
+							   опубликованных уже сборника
+							   -"Многобукаф".Книга для","Игры
+							   демиургов" и "Книга на третье",
+							   решил порадовать новыми притчами.
+							</p>
 						</div>
 					</div>
 					<div class="new-authors-penman">
-						<a href="#"><img src="images/penman.png" alt="penman" width="101" height="99" class="photo"/></a>
+						<a href="#"><img src="images/penman.png" alt="penman" class="photo"/></a>
 						<div class="point">
-						<div class="names">ПЕТР БОРМОР</div>
-						<div class="age">40 ЛЕТ</div>
-						<p>Четвертой книгой волшебных
-						   историй Петр Бормор,
-						   сказачник-философ,обожаемый
-						   человечеством за три
-						   опубликованных уже сборника
-						   -"Многобукаф".Книга для","Игры
-						   демиургов" и "Книга на третье",
-						   решил порадовать новыми притчами.
-						</p>
+							<div class="names">ПЕТР БОРМОР</div>
+							<div class="age">40 ЛЕТ</div>
+							<p>Четвертой книгой волшебных
+							   историй Петр Бормор,
+							   сказачник-философ,обожаемый
+							   человечеством за три
+							   опубликованных уже сборника
+							   -"Многобукаф".Книга для","Игры
+							   демиургов" и "Книга на третье",
+							   решил порадовать новыми притчами.
+							</p>
 						</div>
 					</div>
 				</div>
-				<div class="option"></div>
 			</div>
+			<div class="options"></div>
 			<div class="footer">
 				<ul class="info-footer">
 					<li><a href="#">О НАС</a></li>
@@ -285,7 +285,6 @@
 					<li><a href="#">ПАРТНЕРЫ</a></li>
 				</ul>
 			</div>
-		</div>
 		</div>
 	</body>
 </html>

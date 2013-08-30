@@ -2,154 +2,227 @@
 ======Start Page Authors========
 */
 
-@media (min-width: 980px) and (max-width: 1199px){
-	.wrapper {
-		width:940px;
-		margin:0 auto;
+@media (min-width: 980px) and (max-width: 1199px)
+{
+	.wrapper
+	{
+		width: 940px;
+		margin: 0 auto;
 
 	}
-	.side-bar {
-		width:180px;
+
+	.side-bar
+	{
+		width: 180px;
 
 	}
-	.list-info {
+
+	.list-info
+	{
 		width: 169px;
 	}
-	.content-wrap{
-		width:742px;
+
+	.content-wrap
+	{
+		width: 742px;
 	}
-	#container{
+
+	#container
+	{
 		margin: 25px 0 0 0;
-		width:742px;
+		width: 742px;
 	}
-     .item{
-	     width: 226px;
-     }
+
+	.item
+	{
+		width: 226px;
+	}
 }
-@media (min-width: 768px) and (max-width:979px){
-	.wrapper {
-		width:748px;
+
+@media (min-width: 768px) and (max-width:979px)
+{
+	.wrapper
+	{
+		width: 748px;
 
 	}
-	.side-bar {
-		width:180px;
+
+	.side-bar
+	{
+		width: 180px;
 
 	}
-	.list-info {
+
+	.list-info
+	{
 		width: 169px;
 	}
-	.content-wrap{
-		width:550px;
-	}
-	#container{
+
+	.content-wrap
+	{
 		width: 550px;
 	}
-	.item{
+
+	#container
+	{
+		width: 550px;
+	}
+
+	.item
+	{
 		width: 254px;
 	}
-	.author-photo {
+
+	.author-photo
+	{
 		float: none;
 	}
-	.info-footer {
+
+	.info-footer
+	{
 		text-align: center;
 		padding-top: 44px;
-		font-family: 'Conv_MyriadProRegular','Conv_MyriadProBold','Conv_MyriadProSemibold', serif;
+		font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
 		font-size: 11px;
 		color: #2c2b2b;
 	}
 }
-@media (min-width:480px) and (max-width:767px){
-	.wrapper {
-		width:400px;
+
+@media (min-width:480px) and (max-width:767px)
+{
+	.wrapper
+	{
+		width: 400px;
 	}
-	.side-bar {
-		float:left;
-		width:394px;
+
+	.side-bar
+	{
+		float: left;
+		width: 394px;
 
 	}
-	.list-info {
-		width:394px;
-	}
-	.header-form {
-		width:180px;
-		text-align:left;
-	}
-	.content-wrap{
-		width:394px;
-		margin: 25px 0 0 0;
-	}
-	#container{
+
+	.list-info
+	{
 		width: 394px;
 	}
-	.item {
-		width: 299px;
-		margin:0 ;
+
+	.header-form
+	{
+		width: 180px;
+		text-align: left;
 	}
-	.author-photo {
+
+	.content-wrap
+	{
+		width: 394px;
+		margin: 25px 0 0 0;
+	}
+
+	#container
+	{
+		width: 394px;
+	}
+
+	.item
+	{
+		width: 299px;
+		margin: 0;
+	}
+
+	.author-photo
+	{
 		float: left;
 		margin: 6px;
 		padding: 0;
 	}
-	.info-footer {
+
+	.info-footer
+	{
 		color: #2C2B2B;
-		font-family: 'Conv_MyriadProRegular','Conv_MyriadProBold','Conv_MyriadProSemibold',serif;
+		font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
 		font-size: 11px;
-		padding:44px 0 0 29px;
+		padding: 44px 0 0 29px;
 
 	}
-	.info-footer li {
+
+	.info-footer li
+	{
 		line-height: 24px;
 		margin-right: 29px;
 	}
 }
-@media (min-width:320px) and (max-width:479px){
-	.wrapper {
-		width:320px;
+
+@media (min-width:320px) and (max-width:479px)
+{
+	.wrapper
+	{
+		width: 320px;
 
 	}
-	h1{
+
+	h1
+	{
 		width: 320px;
 	}
-	.side-bar {
-		margin-top:0;
-		margin-bottom:30px;
-		text-align:justify;
-		width:308px;
+
+	.side-bar
+	{
+		margin-top: 0;
+		margin-bottom: 30px;
+		text-align: justify;
+		width: 308px;
 
 		padding: 0 6px;
 	}
-	.list-info {
-		text-align:left;
+
+	.list-info
+	{
+		text-align: left;
 		width: 169px;
 	}
-	.header-form {
-		width:180px;
-		text-align:left;
+
+	.header-form
+	{
+		width: 180px;
+		text-align: left;
 	}
-	.content-wrap{
-		width:314px;
+
+	.content-wrap
+	{
+		width: 314px;
 		margin: 25px 0 0 0;
 	}
-	#container{
+
+	#container
+	{
 		width: 314px;
 	}
-	.item {
+
+	.item
+	{
 		width: 299px;
-		margin:10px 0 0 0 ;
+		margin: 10px 0 0 0;
 	}
-	.author-photo {
+
+	.author-photo
+	{
 		float: left;
 		margin: 6px;
 		padding: 0;
 	}
-	.info-footer {
+
+	.info-footer
+	{
 		color: #2C2B2B;
-		font-family: 'Conv_MyriadProRegular','Conv_MyriadProBold','Conv_MyriadProSemibold',serif;
+		font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
 		font-size: 11px;
 		padding-top: 44px;
-		padding-left:28px;
+		padding-left: 28px;
 	}
-	.info-footer li {
+
+	.info-footer li
+	{
 		line-height: 24px;
 		margin-right: 29px;
 	}
