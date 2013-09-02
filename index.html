@@ -27,12 +27,12 @@
 			$(".list-of-authors:last-child").css("border", "none");
 		</script>
 		<script>
-			$(document).ready(function () {
-				$(".side-bar ul li : odd ")
-				$(".side-bar a .nav").click(function () {
-					$(this).parent().next().slideToggle()
-				})
-			})
+			$(document).ready(function(){
+				$(".list-info");
+				$("span a").click(function(){
+					$(this).parent().next().slideToggle(200);
+				});
+			});
 		</script>
 	</head>
 	<body>
@@ -42,7 +42,7 @@
 			</div>
 			<div class="index-content">
 				<div class="side-bar">
-					<!--<a href="#"><img src="images/nav-icon.png" alt="nav-icon" class="nav"/></a>-->
+					<span><a href="#"class="sprite sprite_nav-icon"></a></span>
 					<ul class="list-info">
 						<li><a href="#">О НАС</a></li>
 						<li><a href="#">КНИГИ</a></li>
@@ -97,8 +97,8 @@
 							<li><a href="#">Я</a></li>
 						</ul>
 					</div>
-					<div class="about-us">
-						<h4>О НАС</h4>
+					<div class="about">
+						<h4 class="about-us">О НАС</h4>
 						<p>
 							Четвертой книгой волшебных
 							историй Петр Бормор,
@@ -110,8 +110,8 @@
 							решил порадовать новыми притчами всех и сразу.
 						</p>
 					</div>
-					<div class="social-networks">
-						<h4>МЫ В СОЦСЕТЯХ</h4>
+					<div class="social">
+						<h4 class="social-networks">МЫ В СОЦСЕТЯХ</h4>
 						<div class="social">
 							<a href="#" class="sprite sprite_ico-social_fb "></a>
 							<a href="#" class="sprite sprite_ico-social_tw"></a>

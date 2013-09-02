@@ -13,10 +13,10 @@
 	.side-bar
 	{
 		width: 180px;
-		background: darkseagreen;
+		background: goldenrod;
 	}
 
-	.nav
+	.side-bar span
 	{
 		display: none;
 	}
@@ -60,7 +60,10 @@
 		background: bisque;
 		margin: 25px 0 0 4px;
 	}
-
+	.side-bar span
+	{
+		display: none;
+	}
 	.list-info
 	{
 		width: 169px;
@@ -108,7 +111,7 @@
 		margin: 25px 0 0 7px;
 	}
 
-	.nav
+	.side-bar span
 	{
 		display: none;
 	}
@@ -241,7 +244,7 @@
 		margin: 25px 0 0 10px;
 	}
 
-	.nav
+	.side-bar span
 	{
 		display: none;
 	}
@@ -393,7 +396,7 @@
 	.header-form form
 	{
 		width: 268px;
-		margin-top: 0px;
+		margin-top: -14px;
 		margin-left: 31px;
 	}
 
@@ -456,7 +459,6 @@
 
 	.new-authors
 	{
-		padding: 0 10px;
 		margin: 25px 0 0 10px;
 		width: 300px;
 		background: darkseagreen;
@@ -481,6 +483,12 @@
 		text-align: justify;
 	}
 
+	.the-authors-names {
+		padding: 16px 0 0 0;
+	}
+	.names {
+		padding-top: 20px;
+	}
 	.new-authors-whisker-whisker, .new-authors-scribe-scribe, .new-authors-penman
 	{
 		padding: 0 0 20px 0;

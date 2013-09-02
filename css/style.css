@@ -216,7 +216,6 @@ h1
 {
 	overflow: hidden;
 	text-indent: -999px;
-	/*background: url("../images/sprite.png") scroll 0 0 transparent no-repeat;*/
 	padding-top: 26px;
 	width: 314px;
 	height: 83px;
@@ -230,6 +229,11 @@ h1
 	float: left;
 	margin: 25px 0 0 18px;
 
+}
+.sprite_nav-icon{
+	width: 30px;
+	height: 30px;
+	display: block;
 }
 
 .list-info
@@ -268,7 +272,7 @@ h1
 	margin-top: 20px;
 }
 
-h4.search
+.search
 {
 	padding-bottom: 8px;
 	color: #9a9a9a;
@@ -284,7 +288,6 @@ h4.search
 	font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
 	font-size: 11px;
 }
-
 .submit
 {
 	background: #000;
@@ -305,7 +308,9 @@ h4.search
 	font-size: 13px;
 	padding-bottom: 10px;
 }
-
+.authors {
+	padding-bottom: 8px;
+}
 .alphabet
 {
 	font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
@@ -340,16 +345,14 @@ h4.search
 	padding: 1px 4px;
 }
 
-.about-us
+.about
 {
 	line-height: 16px;
 	font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
 	font-size: 12px;
 }
-
-h4
-{
-
+.about-us {
+	padding-bottom: 8px;
 }
 
 .social
@@ -365,18 +368,6 @@ h4
 	float: left;
 	margin-right: 1px;
 }
-
-.facebook, .twitter, .network, .vkontakte, .ggoogle
-{
-	display: inline-block;
-	display: -moz-inline-stack;
-	zoom: 1;
-	*display: inline;
-	max-width: 31px;
-	max-height: 34px;
-	border: none;
-}
-
 .pagination
 {
 	text-align: center;
