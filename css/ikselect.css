@@ -1,4 +1,12 @@
 /*ikselect*/
+.sprite
+{
+	background: url(../images/sprite.png) no-repeat;
+}
+.sprite_arrow
+{
+	background-position: -516px -521px;
+}
 .ik_select
 {
 	position: relative;
@@ -28,17 +36,19 @@
 	width: 180px;
 	position: relative;
 	border: 1px solid #a8a8a8;
+
 }
 
 .ik_select_link:after
 {
 	content: '';
 	position: absolute;
-	width: 23px;
-	height: 13px;
-	top: 8px;
+	top: 9px;
 	right: 10px;
-
+	background: url(../images/sprite.png) -478px -522px no-repeat;
+	width: 34px;
+	height: 12px;
+}
 }
 
 .ik_select_link_text:after
@@ -49,6 +59,8 @@
 	height: 13px;
 	top: 8px;
 	right: 10px;
+
+
 }
 
 .ik_select_link_text
@@ -58,9 +70,8 @@
 	line-height: 30px;
 	font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
 	font-size: 13px;
-	background:url('images/sprite.png')  0 0 transparent no-repeat;
-	}
 
+	}
 .ik_select_block
 {
 	display: none;

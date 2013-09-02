@@ -78,7 +78,8 @@
 
 .sprite_arrow-form
 {
-	background-position: -481px -521px;
+	background-position: 526px 479px;
+
 }
 
 .sprite_ico-social_vk
@@ -146,10 +147,6 @@
 	background-position: -481px -537px;
 }
 
-.sprite_arrow
-{
-	background-position: -516px -521px;
-}
 
 /*
 ================================ End Sprites =======================================
@@ -681,8 +678,14 @@ h1
 	font-size: 13px;
 	padding-top: 30px;
 	padding-left: 25px;
-}
 
+}
+.form-ik select{
+	display: block;
+	width: 15px;
+	height: 25px;
+	background: url(../images/sprite.png) no-repeat;
+}
 .form-ik  .form-genre
 {
 	padding-left: 3px;
@@ -705,7 +708,6 @@ h1
 	display: inline;
 	margin-left: 9px;
 }
-
 .product
 {
 	font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
