@@ -7,7 +7,7 @@
 	margin-left: 23px;
 	font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
 	font-size: 13px;
-}
+	}
 
 .ik_select_autowidth
 {
@@ -15,7 +15,10 @@
 	*display: inline;
 	width: 130px;
 }
-
+.sprite_arrow-form
+{
+	background-position: -481px -521px;
+}
 .ik_select_link
 {
 	cursor: default;
@@ -35,7 +38,7 @@
 	height: 13px;
 	top: 8px;
 	right: 10px;
-	background: url("../images/arrow-form.png") 0 0 no-repeat;
+
 }
 
 .ik_select_link_text:after
@@ -48,14 +51,6 @@
 	right: 10px;
 }
 
-.border-none .ik_select
-{
-	border: none;
-	width: 18px;
-	font-family: 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', 'Conv_MyriadProRegular', serif;
-	font-size: 11px;
-}
-
 .ik_select_link_text
 {
 	display: block;
@@ -63,8 +58,8 @@
 	line-height: 30px;
 	font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
 	font-size: 13px;
-	background: url('../images/arrow-form.png') scroll 0 0 transparent no-repeat;
-}
+	background:url('images/sprite.png')  0 0 transparent no-repeat;
+	}
 
 .ik_select_block
 {
