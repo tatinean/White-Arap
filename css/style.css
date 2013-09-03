@@ -199,7 +199,7 @@ h4
 {
 	width: 1000px;
 	margin: 0 auto;
-
+	 background: rosybrown;
 }
 
 .header
@@ -219,13 +219,12 @@ h1
 	margin: 0 auto;
 	cursor: pointer;
 }
-
 .side-bar
 {
 	width: 180px;
 	float: left;
 	margin: 25px 0 0 18px;
-
+	background: darkseagreen;
 }
 .sprite_nav-icon{
 	width: 30px;
@@ -368,9 +367,8 @@ h1
 .pagination
 {
 	text-align: center;
-	font-family: 'Conv_MyriadProSemibold', 'Conv_MyriadProRegular', 'Conv_MyriadProBold', serif;
-	font-size: 12px;
-	color: #2c2b2b;
+	font-family:'Conv_MyriadProRegular','Conv_MyriadProSemibold','Conv_MyriadProBold',serif;
+	font-size: 13px;
 	clear: both;
 	padding-bottom: 24px;
 	padding-top: 24px;
@@ -383,6 +381,7 @@ h1
 	zoom: 1;
 	*display: inline;
 	margin-right: 11px;
+	color:#2c2b2b;
 }
 
 .pagination  a:hover
@@ -658,6 +657,7 @@ h1
 	float: left;
 	margin-left: 19px;
 	margin-top: 25px;
+	background: goldenrod;
 }
 
 .types-of-works
@@ -670,14 +670,14 @@ h1
 	display: -moz-inline-stack;
 	zoom: 1;
 	*display: inline;
+	background: rosybrown;
 }
 
 .form-ik
 {
 	font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
 	font-size: 13px;
-	padding-top: 30px;
-	padding-left: 25px;
+	padding:30px 0 0 25px;
 
 }
 .form-ik select{
@@ -689,16 +689,16 @@ h1
 .form-ik  .form-genre
 {
 	padding-left: 3px;
-	font-family: 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', 'Conv_MyriadProRegular', serif;
+	font-family:'Conv_MyriadProBold', 'Conv_MyriadProSemibold', 'Conv_MyriadProRegular', serif;
 	font-size: 13px;
 	display: inline-block;
 }
 
 .form-input
 {
-	font-family: 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', 'Conv_MyriadProRegular' serif;
-	font-size: 13px;
-	color: #b2b1b1;
+	font-family:'Conv_MyriadProBold', 'Conv_MyriadProSemibold', 'Conv_MyriadProRegular' serif;
+	font-size: 11px;
+	color:#6a6a6a;
 	margin-left: 46px;
 	display: inline-block;
 }
@@ -707,6 +707,9 @@ h1
 {
 	display: inline;
 	margin-left: 9px;
+}
+.all,.available-all{
+	margin:6px;
 }
 .product
 {
@@ -718,25 +721,27 @@ h1
 .advert
 {
 	border-bottom: 1px solid #e5e5e5;
-	width: 766px;
+	width: 768px;
 	height: 138px;
 	padding-top: 18px;
+	background: green;
 }
-
+.content-advert {
+	width:768px;
+	background: royalblue;
+}
 .envelope-min
 {
-	max-width: 93px;
-	max-height: 127px;
 	float: left;
 }
 
 .top-right
 {
 	font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProSemibold', 'Conv_MyriadProBold', serif;
-	width: 85%;
+	width:676px;
 	font-size: 14px;
 	float: left;
-	margin-left: 10px;
+	margin-left: 6px;
 }
 
 .entry-works
@@ -744,7 +749,7 @@ h1
 	font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProSemibold', 'Conv_MyriadProBold', serif;
 	font-size: 12px;
 	line-height: 17px;
-	width: 666px;
+	 width: 676px;
 }
 
 .title-of-the-work
@@ -763,12 +768,13 @@ h1
 	font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProSemibold', 'Conv_MyriadProBold', serif;
 	font-size: 14px;
 	font-weight: bold;
+	margin-bottom: 3px;
 }
 
 .link
 {
 	text-transform: uppercase;
-	padding-top: 21px;
+	padding-top: 14px;
 	display: block;
 }
 

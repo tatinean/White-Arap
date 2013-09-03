@@ -5,7 +5,7 @@
 {
 	.wrapper
 	{
-		width: 1160px;
+		width: 1000px;
 		margin: 0 auto;
 	}
 
@@ -13,7 +13,10 @@
 	{
 		width: 180px;
 	}
-
+	.side-bar span
+	{
+		display: none;
+	}
 	.list-info
 	{
 		width: 169px;
@@ -21,9 +24,8 @@
 
 	.content-of-products
 	{
-		width: 800px;
-		padding: 0;
-		margin-left: 19px;
+		width: 784px;
+		margin-left: 18px;
 	}
 }
 
@@ -33,11 +35,16 @@
 	{
 		width: 940px;
 		margin: 0 auto;
+		background: royalblue;
 	}
-
+	.side-bar span
+	{
+		display: none;
+	}
 	.side-bar
 	{
 		width: 180px;
+		background: gold;
 	}
 
 	.list-info
@@ -47,9 +54,9 @@
 
 	.content-of-products
 	{
-		width: 755px;
-		padding: 0;
-		margin-left: 4px;
+		width: 724px;
+		margin-left: 18px;
+		background: grey;
 	}
 
 	.form-ik
@@ -59,30 +66,37 @@
 		padding-top: 30px;
 		padding-left: 10px;
 	}
-
+	 .form-input{
+		 margin-left: 15px;
+	 }
 	.types-of-works
 	{
-		width: 753px;
+		width: 722px;
+		background: yellow;
 	}
-
-	.entry-works
+	.all, .available-all {
+		margin: 3px;
+	}
+	.content-advert
 	{
-		width: 662px;
-	}
+		width: 724px;
 
-	.advert
-	{
-		width: 755px;
 	}
-
-	.link-visited
-	{
-		margin-left: 206px;
-	}
-
 	.unvisited-link
 	{
 		margin-left: 206px;
+	}
+	.advert{
+		width: 707px;
+	}
+	.top-right{
+		width: 615px;
+	}
+	.entry-works{
+		width:614px ;
+	}
+	.link {
+		padding-top: 8px;
 	}
 }
 
@@ -91,11 +105,16 @@
 	.wrapper
 	{
 		width: 748px;
+		background: mistyrose;
 	}
-
+	.side-bar span
+	{
+		display: none;
+	}
 	.side-bar
 	{
 		width: 180px;
+		background: slateblue;
 	}
 
 	.list-info
@@ -105,14 +124,15 @@
 
 	.content-of-products
 	{
-		width: 563px;
-		padding: 0;
-		margin-left: 4px;
+		width: 531px;
+		margin-left: 19px;
+		background: violet;
 	}
 
 	.types-of-works
 	{
-		width: 563px;
+		width: 529px;
+		background: palevioletred;
 	}
 
 	.form-ik
@@ -150,13 +170,13 @@
 		display: inline;
 		margin-top: -77px;
 		position: absolute;
-		margin-left: 367px;
+		margin-left: 317px;
 	}
 
 	.top-right
 	{
-		width: 100%;
-		float: none;
+		width: 422px;
+		float: right;
 		margin: 0;
 	}
 
@@ -164,16 +184,19 @@
 	{
 		width: 562px;
 		display: inline;
+		line-height: 13px;
 	}
 
 	.envelope-min
 	{
 		padding-right: 5px;
 	}
-
+	 .content-advert{
+		 width: 532px;
+	 }
 	.advert
 	{
-		width: 543px;
+		width: 516px;
 	}
 
 	.link

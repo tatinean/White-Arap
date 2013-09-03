@@ -36,9 +36,7 @@
 	width: 180px;
 	position: relative;
 	border: 1px solid #a8a8a8;
-
 }
-
 .ik_select_link:after
 {
 	content: '';
@@ -49,8 +47,6 @@
 	width: 34px;
 	height: 12px;
 }
-}
-
 .ik_select_link_text:after
 {
 	content: '';
@@ -59,8 +55,6 @@
 	height: 13px;
 	top: 8px;
 	right: 10px;
-
-
 }
 
 .ik_select_link_text
