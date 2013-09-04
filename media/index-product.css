@@ -77,11 +77,6 @@
 	.all, .available-all {
 		margin: 3px;
 	}
-	.content-advert
-	{
-		width: 724px;
-
-	}
 	.unvisited-link
 	{
 		margin-left: 206px;
@@ -176,8 +171,6 @@
 	.top-right
 	{
 		width: 422px;
-		float: right;
-		margin: 0;
 	}
 
 	.entry-works
@@ -191,9 +184,6 @@
 	{
 		padding-right: 5px;
 	}
-	 .content-advert{
-		 width: 532px;
-	 }
 	.advert
 	{
 		width: 516px;
@@ -207,6 +197,10 @@
 	.link-visited, .unvisited-link
 	{
 		margin-left: 3px;
+	}
+	.visited, .unvisited
+	{
+		margin-top: 13px;
 	}
 
 	.info-footer
@@ -223,12 +217,15 @@
 {
 	.wrapper
 	{
-		width: 400px;
+		width: 460px;
 	}
-
+	.side-bar span
+	{
+		display: none;
+	}
 	.side-bar
 	{
-		width: 400px;
+		width: 424px;
 		text-align: justify;
 	}
 
@@ -246,34 +243,31 @@
 
 	.content-of-products
 	{
-		width: 400px;
+		width: 424px;
 		padding: 0;
-		margin-left: 0px;
+		margin:25px 0 0 18px;
 	}
 
 	.types-of-works
 	{
-		width: 400px;
+		width: 424px;
 		height: 211px;
 	}
-
-	.form-ik
-	{
-		padding-left: 81px;
-	}
-
 	.types-of-form.form-ik
-	{
-		padding-top: 10px;
-		padding-left: 15px;
-	}
+     {
+         padding-top: 10px;
+         padding-left: 15px;
+     }
 
 	.form-ik .form-genre
 	{
 		position: absolute;
 		margin-top: 18px;
 	}
-
+	.form-ik
+	{
+		padding-left: 81px;
+	}
 	.ik_select
 	{
 		position: relative;
@@ -281,14 +275,12 @@
 		margin-left: 49px;
 		margin-top: 10px;
 	}
-
 	.input-checkbox, .input-checkbox-checkbox
 	{
 		margin-right: 7px;
 		margin-top: 2px;
 		display: block;
 	}
-
 	.form-input
 	{
 		font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
@@ -299,41 +291,39 @@
 		position: absolute;
 		margin-left: -6px;
 	}
-
 	.top-right
 	{
-		width: 100%;
-		float: none;
-		margin: 0;
+		width:332px ;
 	}
-
 	.entry-works
 	{
 		width: 562px;
 		display: inline;
 	}
-
 	.envelope-min
 	{
 		padding-right: 5px;
 	}
-
 	.advert
 	{
-		width: 400px;
-		height: 190px;
+		width: 425px;
+		height: 198px;
 	}
 
 	.link
 	{
 		padding-top: 18px;
 	}
-
+	 .print {
+		 margin-left: 15px;
+	 }
 	.link-visited, .unvisited-link
 	{
 		margin-left: 340px;
 	}
-
+	 .visited,.unvisited{
+		 margin: 13px 0 0 7px;
+	 }
 	.info-footer
 	{
 		color: #2C2B2B;
@@ -357,45 +347,72 @@
 	{
 		width: 320px;
 	}
-
 	.side-bar
 	{
-		margin-top: 0;
-		margin-bottom: 30px;
-		padding: 0;
 		text-align: justify;
-		width: 320px;
+		width: 310px;
+		background: darkseagreen;
+		margin: 25px 5px 0 5px;
+	}
+
+	.nav
+	{
+		position: absolute;
+		margin-left: -4px;
+		margin-top: 10px;
 	}
 
 	.list-info
 	{
+		display: none;
 		text-align: left;
 		width: 169px;
 	}
 
 	.header-form
 	{
-		width: 180px;
-		text-align: left;
+		width: 261px;
+		margin-top: 10px;
 	}
 
+	.header-form h4
+	{
+		display: none;
+	}
+
+	.header-form form
+	{
+		width: 268px;
+		margin-top: -14px;
+		margin-left: 31px;
+	}
+
+	.author
+	{
+		max-width: 267px;
+		max-height: 28px;
+	}
+
+	.submit
+	{
+		max-width: 75px;
+		max-height: 28px;
+	}
 	.content-of-products
 	{
-		padding: 0;
-		margin: 0;
-		width: 320px;
+		width:310px;
+		margin:25px 5px 0 5px;
+		background: violet;
 	}
-
 	.types-of-works
 	{
-		width: 320px;
+		width: 308px;
 		height: 185px;
 		margin-top: -14px;
 	}
-
 	.form-ik
 	{
-		padding: 17px 0 0 86px;
+		padding: 17px 0 0 60px;
 	}
 
 	.form-ik .form-genre
@@ -406,52 +423,57 @@
 	.form-ik .ik_select
 	{
 		margin-top: 8px;
-		margin-left: -16px;
+		margin-left: 5px;
 	}
 
 	.form-input
 	{
-		margin-top: 14px;
-		margin-left: 20px;
+		margin:12px 0 0 0;
 	}
 
 	.input-checkbox, .input-checkbox-checkbox
 	{
-		display: inline-block;
-		margin-left: -35px;
-		margin-top: 3px;
+		display:block;
+		margin:3px 0 0 0;
 	}
-
-	.image-envelope-min
-	{
-		margin-left: -4px;
+	.all, .available-all {
+		margin: 5px;
 	}
-
-	.advert
-	{
-		width: 320px;
-		height: 320px;
-	}
-
 	.top-right
 	{
-		margin-left: 0;
-		width: 100%;
-	}
-
-	.link li
-	{
-		margin-top: 2px;
+		width: 422px;
 	}
 
 	.entry-works
 	{
-		width: 320px;
+		width: 562px;
+		display: inline;
+		line-height: 13px;
 	}
 
-	.link-visited, .unvisited-link
+	.envelope-min
 	{
-		margin-left: 267px;
+		padding-right: 5px;
+	}
+	.advert
+	{
+		width:310px;
+		height: 247px;
+	}
+	.top-right{
+		width: 217px;
+	}
+	.link
+	{
+		padding-top: 7px;
+		line-height: 24px;
+	}
+	.writing,.print{
+		margin-left: 25px;
+	}
+	.footer
+	{
+		padding-left: 26px;
 	}
 
 	.info-footer

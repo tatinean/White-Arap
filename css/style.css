@@ -717,7 +717,6 @@ h1
 	font-size: 24px;
 	margin-bottom: 31px;
 }
-
 .advert
 {
 	border-bottom: 1px solid #e5e5e5;
@@ -726,22 +725,12 @@ h1
 	padding-top: 18px;
 	background: green;
 }
-.content-advert {
-	width:768px;
-	background: royalblue;
-}
-.envelope-min
-{
-	float: left;
-}
-
 .top-right
 {
 	font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProSemibold', 'Conv_MyriadProBold', serif;
 	width:676px;
 	font-size: 14px;
-	float: left;
-	margin-left: 6px;
+	margin:-128px 0 0 93px;
 }
 
 .entry-works
@@ -749,7 +738,7 @@ h1
 	font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProSemibold', 'Conv_MyriadProBold', serif;
 	font-size: 12px;
 	line-height: 17px;
-	 width: 676px;
+	 width: 674px;
 }
 
 .title-of-the-work
@@ -776,6 +765,8 @@ h1
 	text-transform: uppercase;
 	padding-top: 14px;
 	display: block;
+	font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProSemibold', 'Conv_MyriadProBold', serif;
+	font-size: 11px;
 }
 
 .link li
