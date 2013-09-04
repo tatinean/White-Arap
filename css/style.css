@@ -819,25 +819,24 @@ h1
 
 .content-wrap
 {
-	margin: 25px 0 0 6px;
-	padding-right: 6px;
+	margin: 25px 18px 0 18px;
 	float: left;
-	width: 802px;
-
+	width: 766px;
+	background: darkred;
 }
 
 #container
 {
 	margin: 25px 0 0 0;
-	width: 802px;
+	width: 766px;
+	background: darksalmon;
 }
 
 .item
 {
-	width: 246px;
-	padding: 6px;
-	margin: 0 0 0 9px;
-
+	width: 249px;
+	margin: 0 0 0 6px;
+	background: darkkhaki;
 }
 
 .all-authors
@@ -876,7 +875,8 @@ h1
 
 .author-photo
 {
-
+	width:99px;
+	height:99px;
 	padding: 10px;
 }
 
