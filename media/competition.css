@@ -1,0 +1,379 @@
+/*
+================================Start Page Competitions===============================
+*/
+@media (min-width: 1200px)
+{
+	.wrapper
+	{
+		width: 1160px;
+		margin: 0 auto;
+		background: peru;
+	}
+
+	.side-bar
+	{
+		width: 180px;
+		background: green;
+	}
+
+	.list-info
+	{
+		width: 169px;
+	}
+
+	.content-competitions
+	{
+		width: 800px;
+		float: left;
+		margin: 25px 0 0 20px;
+		background: brown;
+	}
+
+	.type-of-works-information-competitions
+	{
+		width: 800px;
+	}
+}
+
+@media (min-width: 980px) and (max-width: 1199px)
+{
+	.wrapper
+	{
+		width: 940px;
+		margin: 0 auto;
+		background: blue;
+	}
+
+	.side-bar
+	{
+		width: 180px;
+		background: plum;
+	}
+
+	.list-info
+	{
+		width: 169px;
+	}
+
+	.content-competitions
+	{
+		width: 740px;
+		float: left;
+		margin: 25px 0 0 20px;
+		background: peru;
+	}
+
+	.type-of-works-information-competitions
+	{
+		width: 739px;
+	}
+
+	.contests-listings
+	{
+		border-bottom: 1px solid #ebebeb;
+		width: 711px;
+		height: 134px;
+		padding-top: 18px;
+		padding-left: 12px;
+		font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
+	}
+}
+
+@media (min-width: 768px) and (max-width:979px)
+{
+	.wrapper
+	{
+		width: 748px;
+		background: peru;
+	}
+
+	.side-bar
+	{
+		width: 180px;
+		background: grey;
+	}
+
+	.list-info
+	{
+		width: 169px;
+	}
+
+	.content-competitions
+	{
+		width: 548px;
+		float: left;
+		margin: 25px 0 0 20px;
+		background: gold;
+	}
+
+	.type-of-works-information-competitions
+	{
+		width: 548px;
+	}
+
+	.contests-listings
+	{
+		border-bottom: 1px solid #ebebeb;
+		width: 521px;
+		height: 194px;
+		padding-top: 18px;
+		padding-left: 12px;
+		font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
+	}
+
+	.competition
+	{
+		font-size: 12px;
+		line-height: 17px;
+		width: 458px;
+		padding-top: 6px;
+	}
+
+	.list-participant
+	{
+		padding-top: 33px;
+		float: left;
+		width: 268px;
+	}
+
+	.to-participate
+	{
+		background: #000;
+		color: #ddd;
+		width: 138px;
+		float: right;
+		text-align: center;
+		font-family: 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', 'Conv_MyriadProRegular' serif;
+		font-size: 12px;
+		cursor: pointer;
+		padding: 6px;
+		margin-top: 44px;
+	}
+
+	.competition-results
+	{
+		margin-top: 7px;
+	}
+
+	.info-footer
+	{
+		text-align: center;
+		padding-top: 44px;
+		font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
+		font-size: 11px;
+		color: #2c2b2b;
+		background: yellow;
+	}
+}
+
+@media (min-width:480px) and (max-width:767px)
+{
+	.wrapper
+	{
+		width: 400px;
+		background: green;
+	}
+
+	.side-bar
+	{
+		width: 400px;
+		text-align: justify;
+		background: yellow;
+	}
+
+	.list-info
+	{
+		text-align: left;
+		width: 169px;
+	}
+
+	.header-form
+	{
+		width: 180px;
+		text-align: left;
+	}
+
+	.content-competitions
+	{
+		width: 400px;
+		float: left;
+		margin: 25px 0 0 0;
+		background: pink;
+	}
+
+	.type-of-works-information-competitions
+	{
+		width: 400px;
+		font-size: 15px;
+		text-align: justify;
+	}
+
+	.contests-listings
+	{
+		border-bottom: 1px solid #ebebeb;
+		width: 373px;
+		height: 223px;
+		padding-top: 18px;
+		padding-left: 12px;
+		font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
+	}
+
+	.competition
+	{
+		font-size: 12px;
+		line-height: 17px;
+		width: 359px;
+		padding-top: 6px;
+		height: 91px;
+	}
+
+	.list-participant
+	{
+		padding-top: 41px;
+		float: left;
+		width: 179px;
+	}
+
+	.to-participate
+	{
+		background: #000;
+		color: #ddd;
+		width: 138px;
+		float: right;
+		text-align: center;
+		font-family: 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', 'Conv_MyriadProRegular' serif;
+		font-size: 12px;
+		cursor: pointer;
+		padding: 6px;
+	}
+
+	.competition-results
+	{
+		margin-top: 7px;
+	}
+
+	.info-footer
+	{
+		color: #2C2B2B;
+		font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
+		font-size: 11px;
+		margin: 0;
+		padding-top: 44px;
+		text-align: center;
+	}
+
+	.info-footer li
+	{
+		line-height: 24px;
+		margin-right: 5px;
+	}
+}
+
+@media (min-width:320px) and (max-width:479px)
+{
+	.wrapper
+	{
+		width: 320px;
+		background: blue;
+	}
+
+	.side-bar
+	{
+		width: 320px;
+		text-align: justify;
+		background: peru;
+	}
+
+	.list-info
+	{
+		text-align: left;
+		width: 169px;
+	}
+
+	.header-form
+	{
+		width: 180px;
+		text-align: left;
+	}
+
+	.content-competitions
+	{
+		width: 320px;
+		float: left;
+		margin: 25px 0 0 0;
+		background: grey;
+	}
+
+	.type-of-works-information-competitions
+	{
+		width: 127px;
+		height: 164px;
+		font-size: 15px;
+		margin: 0 auto;
+	}
+
+	.contests-listings
+	{
+		border-bottom: 1px solid #ebebeb;
+		width: 289px;
+		height: 276px;
+		padding-top: 18px;
+		padding-left: 12px;
+		font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
+	}
+
+	.competition
+	{
+		font-size: 12px;
+		line-height: 17px;
+		width: 291px;
+		padding-top: 6px;
+		height: 91px;
+	}
+
+	.list-participant
+	{
+		padding-top: 41px;
+		float: left;
+		width: 179px;
+	}
+
+	.to-participate
+	{
+		background: #000;
+		color: #ddd;
+		width: 138px;
+		float: right;
+		text-align: center;
+		font-family: 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', 'Conv_MyriadProRegular' serif;
+		font-size: 12px;
+		cursor: pointer;
+		padding: 6px;
+	}
+
+	.competition-results
+	{
+		margin-top: 7px;
+	}
+
+	.info-footer
+	{
+		color: #2C2B2B;
+		font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
+		font-size: 11px;
+		margin: 0;
+		padding-top: 44px;
+		text-align: center;
+		background: orange;
+	}
+
+	.info-footer li
+	{
+		line-height: 24px;
+		margin-right: 5px;
+	}
+}
+
+/*
+================================End Page Competitions===============================
+*/
