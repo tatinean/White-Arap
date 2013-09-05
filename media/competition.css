@@ -10,28 +10,36 @@
 		background: peru;
 	}
 
+	.side-bar span
+	{
+		display: none;
+	}
+
 	.side-bar
 	{
 		width: 180px;
 		background: green;
 	}
-
-	.list-info
+		.list-info
 	{
 		width: 169px;
 	}
 
 	.content-competitions
 	{
-		width: 800px;
+		width: 944px;
 		float: left;
-		margin: 25px 0 0 20px;
+		margin: 25px 0 0 18px;
 		background: brown;
 	}
 
 	.type-of-works-information-competitions
 	{
-		width: 800px;
+		width: 944px;
+	}
+	.contests-listings,.contest-listings{
+		width: 915px;
+		padding: 18px 0 0 12px;
 	}
 }
 
@@ -44,6 +52,11 @@
 		background: blue;
 	}
 
+	.side-bar span
+	{
+		display: none;
+	}
+
 	.side-bar
 	{
 		width: 180px;
@@ -54,24 +67,21 @@
 	{
 		width: 169px;
 	}
-
-	.content-competitions
-	{
-		width: 740px;
-		float: left;
-		margin: 25px 0 0 20px;
-		background: peru;
-	}
-
 	.type-of-works-information-competitions
 	{
-		width: 739px;
+		width: 724px;
 	}
-
+	.content-competitions
+	{
+		width: 724px;
+		float: left;
+		margin: 25px 0 0 18px;
+		background: peru;
+	}
 	.contests-listings
 	{
 		border-bottom: 1px solid #ebebeb;
-		width: 711px;
+		width: 694px;
 		height: 134px;
 		padding-top: 18px;
 		padding-left: 12px;
@@ -87,6 +97,11 @@
 		background: peru;
 	}
 
+	.side-bar span
+	{
+		display: none;
+	}
+
 	.side-bar
 	{
 		width: 180px;
@@ -100,23 +115,23 @@
 
 	.content-competitions
 	{
-		width: 548px;
+		width: 532px;
 		float: left;
-		margin: 25px 0 0 20px;
+		margin: 25px 0 0 18px;
 		background: gold;
 	}
 
 	.type-of-works-information-competitions
 	{
-		width: 548px;
+		width: 532px;
 	}
 
 	.contests-listings
 	{
 		border-bottom: 1px solid #ebebeb;
-		width: 521px;
-		height: 194px;
-		padding-top: 18px;
+		width: 502px;
+		height: 183px;
+		padding-top: 11px;
 		padding-left: 12px;
 		font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
 	}
@@ -154,16 +169,6 @@
 	{
 		margin-top: 7px;
 	}
-
-	.info-footer
-	{
-		text-align: center;
-		padding-top: 44px;
-		font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
-		font-size: 11px;
-		color: #2c2b2b;
-		background: yellow;
-	}
 }
 
 @media (min-width:480px) and (max-width:767px)
@@ -174,9 +179,14 @@
 		background: green;
 	}
 
+	.side-bar span
+	{
+		display: none;
+	}
+
 	.side-bar
 	{
-		width: 400px;
+		width: 364px;
 		text-align: justify;
 		background: yellow;
 	}
@@ -195,36 +205,40 @@
 
 	.content-competitions
 	{
-		width: 400px;
+		width: 364px;
 		float: left;
-		margin: 25px 0 0 0;
+		margin: 25px 18px 0 18px;
 		background: pink;
 	}
 
 	.type-of-works-information-competitions
 	{
-		width: 400px;
+		width: 364px;
 		font-size: 15px;
 		text-align: justify;
 	}
-
+	.information-competitions a
+	{
+		display: inline-block;
+		padding-left:7px;
+		padding-top: 15px;
+	}
 	.contests-listings
 	{
 		border-bottom: 1px solid #ebebeb;
-		width: 373px;
+		width: 352px;
 		height: 223px;
-		padding-top: 18px;
-		padding-left: 12px;
+		padding:18px 6px 0 6px;
+
 		font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
 	}
-
 	.competition
 	{
 		font-size: 12px;
 		line-height: 17px;
-		width: 359px;
+		width: 352px;
 		padding-top: 6px;
-		height: 91px;
+
 	}
 
 	.list-participant
@@ -246,12 +260,6 @@
 		cursor: pointer;
 		padding: 6px;
 	}
-
-	.competition-results
-	{
-		margin-top: 7px;
-	}
-
 	.info-footer
 	{
 		color: #2C2B2B;
@@ -279,7 +287,7 @@
 
 	.side-bar
 	{
-		width: 320px;
+		width: 284px;
 		text-align: justify;
 		background: peru;
 	}
@@ -298,24 +306,24 @@
 
 	.content-competitions
 	{
-		width: 320px;
+		width: 284px;
 		float: left;
-		margin: 25px 0 0 0;
+		margin: 25px 18px 0 18px;
 		background: grey;
 	}
 
 	.type-of-works-information-competitions
 	{
-		width: 127px;
-		height: 164px;
+		width: 161px;
+		height: 151px;
 		font-size: 15px;
-		margin: 0 auto;
+		margin: 18px auto;
 	}
 
 	.contests-listings
 	{
 		border-bottom: 1px solid #ebebeb;
-		width: 289px;
+		width: 272px;
 		height: 276px;
 		padding-top: 18px;
 		padding-left: 12px;
@@ -326,7 +334,7 @@
 	{
 		font-size: 12px;
 		line-height: 17px;
-		width: 291px;
+		width: 272px;
 		padding-top: 6px;
 		height: 91px;
 	}
@@ -377,3 +385,4 @@
 /*
 ================================End Page Competitions===============================
 */
+
