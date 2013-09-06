@@ -9,18 +9,32 @@
 		margin: 0 auto;
 		background: brown;
 	}
-
+	.side-bar span
+	{
+		display: none;
+	}
 	.side-bar
 	{
 		width: 180px;
-		background: red;
+		background: gainsboro;
 	}
 
 	.list-info
 	{
 		width: 169px;
 	}
-
+     .author-comment{
+	     width: 926px;
+	     background: gold;
+     }
+     .product-block{
+	     width: 629px;
+	     background: darkgreen;
+     }
+     .block-comment{
+	     width:908px;
+	     margin: 81px 18px 0 0;
+     }
 }
 
 @media (min-width: 980px) and (max-width: 1199px)
@@ -31,7 +45,10 @@
 		margin: 0 auto;
 		background: pink;
 	}
-
+	.side-bar span
+	{
+		display: none;
+	}
 	.side-bar
 	{
 		width: 180px;
@@ -45,9 +62,9 @@
 
 	.author-comment
 	{
-		width: 753px;
+		width: 706px;
 		float: left;
-		margin: 25px 0 0 7px;
+		margin: 25px 18px 0 18px;
 		background: royalblue;
 	}
 
@@ -58,24 +75,16 @@
 
 	.product-block
 	{
-		width: 474px;
-		margin-left: 38px;
-		float: left;
-		background: pink;
+		width:409px;
+		margin-left:38px;
+		float:left;
+		background:pink;
 	}
-
-	.author-comment
-	{
-		width: 753px;
-		float: left;
-		margin: 25px 0 70px 7px;
-	}
-
 	.block-comment
 	{
-		width: 753px;
+		width: 688px;
 		float: left;
-		margin: 81px 0 0 0;
+		margin: 81px 18px 0 0;
 		background: grey;
 	}
 
@@ -103,7 +112,10 @@
 		width: 748px;
 		background: plum;
 	}
-
+	.side-bar span
+	{
+		display: none;
+	}
 	.side-bar
 	{
 		width: 180px;
@@ -117,9 +129,9 @@
 
 	.author-comment
 	{
-		width: 561px;
+		width: 514px;
 		float: left;
-		margin: 25px 0 70px 7px;
+		margin: 25px 18px 70px 18px;
 		background: blue;
 	}
 
@@ -128,21 +140,28 @@
 		font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
 		font-size: 12px;
 		margin-top: 19px;
-		width: 561px;
+		width:494px;
 	}
 
 	.product-block
 	{
-		width: 561px;
-		margin: 0;
+		width: 514px;
+		margin:0 18px 0 0;
 		float: left;
+	}
+	.notice
+	{
+		width: 166px;
+		float: left;
+		margin-left:94px;
+		margin-top:42px;
 	}
 
 	.block-comment
 	{
-		width: 561px;
+		width: 514px;
 		float: left;
-		margin: 81px 0 0 0;
+		margin: 81px 18px 0 0;
 	}
 
 	.level-2
@@ -175,13 +194,17 @@
 	.wrapper
 	{
 		width: 400px;
-		background: blue;
+		background: bisque;
 	}
-
+	.side-bar span
+	{
+		display: none;
+	}
 	.side-bar
 	{
 		float: left;
-		width: 400px;
+		width: 363px;
+		margin:25px 18px 0 18px;
 		background: grey;
 	}
 
@@ -198,9 +221,9 @@
 
 	.author-comment
 	{
-		width: 400px;
+		width: 363px;
 		float: left;
-		margin: 25px 0 70px 0;
+		margin: 25px 18px 70px 18px;
 		background: blue;
 	}
 
@@ -214,15 +237,22 @@
 
 	.product-block
 	{
-		width: 400px;
-		margin-left: 0px;
+		width: 363px;
+		margin:0 18px 0 0px;
+	}
+	.notice
+	{
+		width: 166px;
+		float: left;
+		margin-left:25px;
+		margin-top:42px;
 	}
 
 	.block-comment
 	{
-		width: 400px;
+		width:363px;
 		float: left;
-		margin: 81px 0 0 0;
+		margin: 81px 18px 0 0;
 	}
 
 	.info-footer
@@ -248,40 +278,68 @@
 		width: 320px;
 		background: green;
 	}
-
 	.side-bar
 	{
-		margin-top: 0;
-		margin-bottom: 30px;
-		padding: 0;
 		text-align: justify;
-		width: 320px;
-		background: yellow;
+		width: 300px;
+		background: darkseagreen;
+		margin: 25px 0 0 10px;
+	}
+
+	.nav
+	{
+		position: absolute;
+		margin-left: -4px;
+		margin-top: 10px;
 	}
 
 	.list-info
 	{
+		display: none;
 		text-align: left;
 		width: 169px;
 	}
 
 	.header-form
 	{
-		width: 180px;
-		text-align: left;
+		width: 261px;
+		margin-top: 10px;
 	}
 
+	.header-form h4
+	{
+		display: none;
+	}
+
+	.header-form form
+	{
+		width: 268px;
+		margin-top: -14px;
+		margin-left: 31px;
+	}
+
+	.author
+	{
+		max-width: 267px;
+		max-height: 28px;
+	}
+
+	.submit
+	{
+		max-width: 75px;
+		max-height: 28px;
+	}
 	.author-comment
 	{
-		width: 320px;
+		width: 300px;
 		float: left;
-		margin: 25px 0 70px 0;
+		margin: 25px 10px 70px 10px;
 		background: blue;
 	}
 
 	.product-block
 	{
-		width: 320px;
+		width: 300px;
 		margin-left: 0px;
 	}
 
@@ -290,7 +348,7 @@
 		font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
 		font-size: 12px;
 		margin-top: 19px;
-		width: 320px;
+		width: 300px;
 	}
 
 	.notice
@@ -298,12 +356,12 @@
 		width: 166px;
 		float: left;
 		margin-left: 0;
-		margin-top: 14px;
+		margin-top:53px;
 	}
 
 	.block-comment
 	{
-		width: 320px;
+		width: 300px;
 		float: left;
 		margin: 81px 0 0 0;
 	}

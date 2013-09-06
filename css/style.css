@@ -35,7 +35,6 @@
 /*
 ================================ Sprites =======================================
 */
-
 .sprite
 {
 	background: url(../images/sprite.png) no-repeat;
@@ -45,108 +44,74 @@
 {
 	background-position: 0 0;
 }
+.sprite_network-min{background-position:-530px -557px;}
+.sprite_vkontakte-min{background-position:-572px -557px;}
+.sprite_twitter-min{background-position:-551px -557px;}
+.sprite_facebook-min{background-position:-614px -557px;}
+.sprite_ggoogle-min{background-position:-593px -557px;}
+.sprite_letter{background-position:-604px -537px;}
+.sprite_arrow{background-position:-349px -521px;}
 
 .sprite_logotip
 {
 	background-position: 0 -521px;
 }
-
+.sprite_arrow-form
+{
+	background-position: 526px 479px;
+}
 .sprite_ggoogle
 {
-	background-position: -314px -521px;
+  background-position: -314px -521px;
 }
-
 .sprite_twitter
 {
 	background-position: -349px -521px;
 }
-
 .sprite_facebook
 {
 	background-position: -382px -521px;
 }
-
 .sprite_network
 {
 	background-position: -414px -521px;
 }
-
 .sprite_vkontakte
 {
 	background-position: -448px -521px;
 }
-
-.sprite_arrow-form
-{
-	background-position: 526px 479px;
-
-}
-
 .sprite_ico-social_vk
 {
 	background-position: -314px -557px;
 }
-
 .sprite_ico-social_tw
 {
 	background-position: -345px -557px;
 }
-
 .sprite_ico-social_p
 {
 	background-position: -376px -557px;
 }
-
 .sprite_ico-social_gp
 {
 	background-position: -407px -557px;
 }
-
 .sprite_ico-social_fb
 {
 	background-position: -438px -557px;
 }
-
 .sprite_authors-search
 {
 	background-position: -469px -557px;
 }
-
 .sprite_nav-icon
 {
 	background-position: -499px -557px;
 }
-
-.sprite_network-min
-{
-	background-position: -529px -557px;
-}
-
-.sprite_twitter-min
-{
-	background-position: -551px -557px;
-}
-
-.sprite_vkontakte-min
-{
-	background-position: -572px -557px;
-}
-
-.sprite_ggoogle-min
-{
-	background-position: -593px -557px;
-}
-
-.sprite_facebook-min
-{
-	background-position: -614px -557px;
-}
-
 .sprite_letter
 {
 	background-position: -481px -537px;
 }
-
 
 /*
 ================================ End Sprites =======================================
@@ -1055,26 +1020,24 @@ h1
 */
 .author-comment
 {
-	width: 801px;
+	width: 766px;
 	float: left;
-	margin: 25px 0 70px 19px;
-}
-
-.borman
-{
-	max-width: 242px;
-	max-height: 242px;
+	margin: 25px 18px 70px 18px;
+	background: royalblue;
 }
 
 .writer-block
 {
 	float: left;
 }
-
+.view{
+	width: 242px;
+	height: 242px;
+}
 .social-min
 {
-	margin-top: -48px;
 	margin-left: 66px;
+	margin-top: -51px;
 }
 
 .social-min a
@@ -1085,19 +1048,9 @@ h1
 	zoom: 1;
 	*display: inline;
 	border: none;
+	width: 20px;
+	height: 20px;
 }
-
-.facebook_min, .twitter_min, .network_min, .vkontakte_min, .ggoogle_min
-{
-	max-width: 20px;
-	min-height: 20px;
-	display: inline-block;
-	display: -moz-inline-stack;
-	zoom: 1;
-	*display: inline;
-	border: none;
-}
-
 .man-of-letters
 {
 	font-family: 'Conv_MyriadProSemibold', 'Conv_MyriadProBold', 'Conv_MyriadProRegular', serif;
@@ -1133,8 +1086,8 @@ h1
 
 .product-block
 {
-	width: 522px;
-	margin-left: 38px;
+	width: 469px;
+	margin:0 18px 0 38px;
 	float: left;
 }
 
@@ -1233,9 +1186,9 @@ h1
 
 .block-comment
 {
-	width: 801px;
+	width: 766px;
 	float: left;
-	margin: 81px 0 0 0;
+	margin: 81px 0 0;
 }
 
 .commented
