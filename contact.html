@@ -6,6 +6,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="media/contact.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".list-info");
+			$("span a").click(function(){
+				$(this).parent().next().slideToggle(200);
+			});
+		});
+	</script>
 </head>
 <body>
 <div class="wrapper">
@@ -14,7 +23,7 @@
 	</div>
 	<div class="index-content">
 		<div class="side-bar">
-			<!--<a href="#"><img src="images/nav-icon.png" alt="nav-icon" class="nav"/></a>-->
+			<span><a href="#"class="sprite sprite_nav-icon"></a></span>
 			<ul class="list-info">
 				<li><a href="#">О НАС</a></li>
 				<li><a href="#">КНИГИ</a></li>
@@ -26,7 +35,6 @@
 			</ul>
 			<div class="header-form">
 				<h4 class="search">ПОИСК</h4>
-
 				<form>
 					<input type="text" name="author" value="" class="author">
 					<input type="submit" name="author" value="ПОИСК" class="submit">
@@ -70,9 +78,8 @@
 					<li><a href="#">Я</a></li>
 				</ul>
 			</div>
-			<div class="about-us">
-				<h4>О НАС</h4>
-
+			<div class="about">
+				<h4 class="about-us">О НАС</h4>
 				<p>
 					Четвертой книгой волшебных
 					историй Петр Бормор,
@@ -84,11 +91,10 @@
 					решил порадовать новыми притчами всех и сразу.
 				</p>
 			</div>
-			<div class="social-networks">
-				<h4>МЫ В СОЦСЕТЯХ</h4>
-
+			<div class="social">
+				<h4 class="social-networks">МЫ В СОЦСЕТЯХ</h4>
 				<div class="social">
-					<a href="#" class="sprite sprite_ico-social_fb "></a>
+					<a href="#" class="sprite sprite_ico-social_fb"></a>
 					<a href="#" class="sprite sprite_ico-social_tw"></a>
 					<a href="#" class="sprite sprite_ico-social_p"></a>
 					<a href="#" class="sprite sprite_ico-social_vk"></a>
@@ -109,7 +115,7 @@
 				</form>
 			</div>
 			<div class="content-of-map">
-				<div>
+				<div class="location">
 					<div class="location-map">КАРТА ПРОЕЗДА</div>
 				</div>
 				<div class="contacts">
@@ -128,15 +134,13 @@
 					</p>
 				</div>
 				<a href="#"><img src="images/map.png" alt="map" class="map"/></a>
-
 				<div class="church">
-					<a href="#" class="sprite_church"></a>
+					<a href="#" class="sprite sprite_church"></a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="options"></div>
-</div>
+<div class="options"></div>
 <div class="footer">
 	<ul class="info-footer">
 		<li><a href="#">О НАС</a></li>

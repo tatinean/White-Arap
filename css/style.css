@@ -1237,24 +1237,20 @@ h1
 /*
 ================================End Page Contact===============================
 */
-.index-contact
-{
-	width: 963px;
-	margin: 25px 0 0 0;
-}
-
 .main-content
 {
-	width: 764px;
+	width: 784px;
 	float: left;
-	margin: 25px 0 0 19px;
+	margin: 25px 0 0 18px;
+	background: indigo;
 }
 
-.main-head
+.main-head-form
 {
-	width: 782px;
+	width: 784px;
 	float: left;
 	padding-bottom: 31px;
+	background: indianred;
 }
 
 .main-head-title
@@ -1310,11 +1306,12 @@ textarea
 	vertical-align: bottom;
 }
 
-.location-map
+.location
 {
 	font-family: 'Conv_MyriadProSemibold', 'Conv_MyriadProBold', 'Conv_MyriadProRegular', serif;
 	font-size: 16px;
-	margin-top: 30px;
+	position: absolute;
+	margin-top: 10px;
 }
 
 .map
@@ -1325,18 +1322,12 @@ textarea
 	position: absolute;
 }
 
-.church
+.church a
 {
-	margin-top: 102px;
+	margin-top: 345px;
 	display: block;
 	width: 765px;
 	height: 520px;
-}
-
-.sprite_church
-{
-	background-position: 0 0;
-
 }
 
 .address
@@ -1353,9 +1344,9 @@ textarea
 	width: 231px;
 	height: 249px;
 	background: #fafafa;
-	float: right;
-	margin-top: 13px;
-	padding-left: 15px;
+	float:right;
+	margin:13px 18px 0 0;
+	padding-left:15px;
 }
 
 .contact-data
@@ -1370,10 +1361,9 @@ textarea
 {
 	border: none;
 	float: left;
-	width: 782px;
+	width: 784px;
 	border-top: 1px solid #a8a8a8;
-	margin-bottom: 70px;
-	margin-left: 19px;
+
 }
 
 * html .content
@@ -1388,10 +1378,6 @@ textarea
 	height: 930px;
 }
 
-.options
-{
-	clear: both;
-}
 
 /*
 ================================End Page Contact===============================
