@@ -959,8 +959,15 @@ h1
 	font-size: 24px;
 	font-weight: bold;
 }
+.contests-listing{
+	border-bottom: 1px solid #ebebeb;
+	width: 756px;
+	height: 134px;
+	padding: 18px 0 0 12px;
+	font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
 
-.contest-listings,.contests-listings
+}
+.contests-listings
 {
 	border-bottom: 1px solid #ebebeb;
 	width: 756px;
