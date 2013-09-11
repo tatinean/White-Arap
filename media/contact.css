@@ -80,8 +80,9 @@
 
 	.church
 	{
-		width: 750px;
-		margin-top: 48px;
+		margin-top: 361px;
+		background-size: 724px 520px;
+		padding-top: 508px;
 	}
 }
 
@@ -107,22 +108,24 @@
 
 	.main-head-form
 	{
-		width: 537px;
+		width: 532px;
 	}
 
 	.main-content
 	{
 		float: left;
-		width: 555px;
-		margin: 25px 0 0 13px;
+		width: 532px;
+		margin: 25px 0 0 18px;
 	}
 
 	.content-of-map
 	{
 		max-width: 516px;
-		margin: 0;
-	}
 
+	}
+	.location{
+		position: relative;
+	}
 	.contacts
 	{
 		float: left;
@@ -137,8 +140,10 @@
 
 	.church
 	{
-		width: 555px;
-		margin-top: -11px;
+
+		margin-top: 0px;
+		width: 532px;
+		padding-top:361px;
 	}
 
 	.main-head
@@ -161,17 +166,18 @@
 	.wrapper
 	{
 		width: 400px;
+		background: bisque;
 	}
-
-	.index-contact
+	.side-bar span
 	{
-		width: 400px;
+		display: none;
 	}
-
 	.side-bar
 	{
 		float: left;
-		width: 400px;
+		width: 363px;
+		margin:25px 18px 0 18px;
+		background: grey;
 	}
 
 	.list-info
@@ -187,30 +193,37 @@
 
 	.main-content
 	{
-		margin-left: 0;
-		width: 400px;
-		float: none;
+		width: 363px;
+		margin: 25px 18px 0 18px;
+
 	}
 
 	.main-head
 	{
-		width: 400px;
+		width: 363px;
 	}
 
 	.main-head-form
 	{
-		width: 400px;
+		width: 363px;
+	}
+	.name-right,.name-left {
+		margin: 11px 0 0 0;
+		padding: 0;
+	}
+	.submit-content{
+		float: left;
 	}
 
 	textarea
 	{
-		width: 393px;
+		width:357px;
 		float: left;
 	}
 
 	.content-of-map
 	{
-		width: 400px;
+		width: 363px;
 		margin: 0;
 	}
 
@@ -218,32 +231,21 @@
 	{
 		float: left;
 	}
+	.location{
+		position:relative;
+	}
 
 	.map
 	{
 		position: static;
-		max-width: 400px;
+		max-width: 366px;
 	}
 
 	.church
 	{
-		max-width: 400px;
-		margin-top: -11px;
-	}
-
-	.info-footer
-	{
-		color: #2C2B2B;
-		font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
-		font-size: 11px;
-		padding: 44px 0 0 29px;
-
-	}
-
-	.info-footer li
-	{
-		line-height: 24px;
-		margin-right: 29px;
+		padding-top: 366px;
+		background-size: 366px 366px;
+		margin-top: 0;
 	}
 }
 
@@ -254,34 +256,56 @@
 		width: 320px;
 		background: green;
 	}
-
-	.index-contact
-	{
-		width: 320px;
-	}
-
 	.side-bar
 	{
-		margin-top: 0;
-		margin-bottom: 30px;
-		padding: 0;
 		text-align: justify;
-		width: 320px;
-		background: yellow;
+		width: 300px;
+		background: darkseagreen;
+		margin: 25px 0 0 10px;
+	}
+
+	.nav
+	{
+		position: absolute;
+		margin-left: -4px;
+		margin-top: 10px;
 	}
 
 	.list-info
 	{
+		display: none;
 		text-align: left;
 		width: 169px;
 	}
 
 	.header-form
 	{
-		width: 180px;
-		text-align: left;
+		width: 261px;
+		margin-top: 10px;
 	}
 
+	.header-form h4
+	{
+		display: none;
+	}
+
+	.header-form form
+	{
+		width: 268px;
+		margin-top: -14px;
+		margin-left: 31px;
+	}
+
+	.author
+	{
+		max-width: 267px;
+		max-height: 28px;
+	}
+
+	.submit
+	{
+		max-width: 75px;
+		max-height: 28px;
 	.name-right
 	{
 		margin-left: 0;

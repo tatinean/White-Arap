@@ -1337,11 +1337,12 @@ textarea
 
 .church
 {
-    background:url(../images/church.png) no-repeat;
-	margin-top: 311px;
-	display: block;
-	width: 765px;
-	height: 520px;
+	background: url(../images/church.png);
+	background-repeat: no-repeat;
+	padding-top: 627px;
+	background-size:cover;
+	margin-top: 337px;
+
 
 }
 
