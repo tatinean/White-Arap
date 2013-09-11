@@ -22,9 +22,13 @@
 		width: 169px;
 	}
 	.main-content {
-		width: 944px;
+		width:944px;
 		background:darkgoldenrod;
 	}
+    .content-of-map{
+        width: 944px;
+        background:green;
+    }
 }
 
 @media (min-width: 980px) and (max-width: 1199px)
@@ -33,13 +37,12 @@
 	{
 		width: 940px;
 		margin: 0 auto;
+        background:cadetblue ;
 	}
-
-	.index-contact
-	{
-		width: 940px;
-	}
-
+    .side-bar span
+    {
+        display: none;
+    }
 	.side-bar
 	{
 		width: 180px;
@@ -53,13 +56,14 @@
 	.main-content
 	{
 		float: left;
-		width: 747px;
-		margin: 25px 0 0 13px;
+		width: 724px;
+		margin: 25px 0 0 18px;
+        background:burlywood ;
 	}
 
 	.content-of-map
 	{
-		width: 747px;
+		width: 724px;
 		height: 869px;
 		margin: 0;
 	}
@@ -87,12 +91,10 @@
 	{
 		width: 748px;
 	}
-
-	.index-contact
-	{
-		width: 748px;
-	}
-
+    .side-bar span
+    {
+        display: none;
+    }
 	.side-bar
 	{
 		width: 180px;

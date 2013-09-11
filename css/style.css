@@ -40,17 +40,33 @@
 	background: url(../images/sprite.png) no-repeat;
 }
 
-.sprite_church
-{
-	background-position: 0 0;
+.sprite_network-min {
+    background-position: -530px -557px;
 }
-.sprite_network-min{background-position:-530px -557px;}
-.sprite_vkontakte-min{background-position:-572px -557px;}
-.sprite_twitter-min{background-position:-551px -557px;}
-.sprite_facebook-min{background-position:-614px -557px;}
-.sprite_ggoogle-min{background-position:-593px -557px;}
-.sprite_letter{background-position:-604px -537px;}
-.sprite_arrow{background-position:-349px -521px;}
+
+.sprite_vkontakte-min {
+    background-position: -572px -557px;
+}
+
+.sprite_twitter-min {
+    background-position: -551px -557px;
+}
+
+.sprite_facebook-min {
+    background-position: -614px -557px;
+}
+
+.sprite_ggoogle-min {
+    background-position: -593px -557px;
+}
+
+.sprite_letter {
+    background-position: -604px -537px;
+}
+
+.sprite_arrow {
+    background-position: -349px -521px;
+}
 
 .sprite_logotip
 {
@@ -1244,15 +1260,6 @@ h1
 	margin: 25px 0 0 18px;
 	background: indigo;
 }
-
-.main-head-form
-{
-	width: 784px;
-	float: left;
-	padding-bottom: 31px;
-	background: indianred;
-}
-
 .main-head-title
 {
 	font-family: 'Conv_MyriadProSemibold', 'Conv_MyriadProBold', 'Conv_MyriadProRegular', serif;
@@ -1260,7 +1267,13 @@ h1
 	color: #000;
 	margin-bottom: 14px;
 }
-
+.main-head-form
+{
+    width: 558px;
+    float: left;
+    padding-bottom: 31px;
+    background: indianred;
+}
 textarea
 {
 	width: 452px;
@@ -1322,12 +1335,14 @@ textarea
 	position: absolute;
 }
 
-.church a
+.church
 {
-	margin-top: 345px;
+    background:url(../images/church.png) no-repeat;
+	margin-top: 311px;
 	display: block;
 	width: 765px;
 	height: 520px;
+
 }
 
 .address

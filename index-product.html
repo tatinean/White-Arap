@@ -9,7 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="media/index-product.css">
 		<script src="js/vendor/jquery-1.9.1.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-		<script src="js/jquery.ikSelect.js"></script>
+		<script src="js/jquery.ikselect.js"></script>
 		<script src="js/app-index-product.js"></script>
 		<script>
 			$(document).ready(function () {
@@ -40,7 +40,9 @@
 					<div class="header-form">
 						<h4 class="search">ПОИСК</h4>
 						<form>
-							<input type="text" name="author" value="" class="author">
+							<label>
+								<input type="text" name="author" value="" class="author">
+							</label>
 							<input type="submit" name="author" value="ПОИСК" class="submit">
 						</form>
 					</div>
@@ -113,18 +115,18 @@
 					<div class="types-of-works">
 						<form class="form-ik">
 							<div class="form-genre">ЖАНР:</div>
-							<select class="ikselect sprite sprite_arrow-form">
-								<option>КОМЕДИЯ</option>
-								<option>КОМЕДИЯ,КОМЕДИЯ</option>
-								<option>КОМЕДИЯ,КОМЕДИЯ</option>
-								<option>КОМЕДИЯ,КОМЕДИЯ</option>
-							</select>
-							<select class="ikselect sprite sprite_arrow-form">
-								<option>ПО ДАТЕ ПУБЛИКАЦИИ</option>
-								<option>ПО ДАТЕ ПУБЛИКАЦИИ</option>
-								<option>ПО ДАТЕ ПУБЛИКАЦИИ</option>
-								<option>ПО ДАТЕ ПУБЛИКАЦИИ</option>
-							</select>
+								<select class="ikselect sprite sprite_arrow-form">
+									<option>КОМЕДИЯ</option>
+									<option>КОМЕДИЯ,КОМЕДИЯ</option>
+									<option>КОМЕДИЯ,КОМЕДИЯ</option>
+									<option>КОМЕДИЯ,КОМЕДИЯ</option>
+								</select>
+								<select class="ikselect sprite sprite_arrow-form">
+									<option>ПО ДАТЕ ПУБЛИКАЦИИ</option>
+									<option>ПО ДАТЕ ПУБЛИКАЦИИ</option>
+									<option>ПО ДАТЕ ПУБЛИКАЦИИ</option>
+									<option>ПО ДАТЕ ПУБЛИКАЦИИ</option>
+								</select>
 							<div class="form-input">
 								<span class="input-checkbox"><input type="checkbox" name="show_all" value="ВСЕ" id="show_all" class="all"><label for="show_all">ВСЕ</label></span>
 								<span class="input-checkbox-checkbox"><input type="checkbox" name="available" value="ДОСТУПНЫ ДЛЯ ЧТЕНИЯ" id="available" class="available-all"><label for="available">ДОСТУПНЫ ДЛЯ ЧТЕНИЯ</label></span>
