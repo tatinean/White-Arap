@@ -1,0 +1,21 @@
+.letter{
+	behavior: url(border-radius.htc);
+	-khtml-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+}
+
+.pagination a,
+.alphabet li,
+.info-footer li,
+.link li,
+.information-competitions a,
+.types-of-works,
+.ik_select,
+.form-ik .form-genre,
+.form-ik .form-input
+{
+	display: -moz-inline-stack;
+	zoom: 1;
+	*display: inline;
+}

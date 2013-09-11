@@ -23,11 +23,11 @@
 	}
 	.main-content {
 		width:944px;
-		background:darkgoldenrod;
+
 	}
     .content-of-map{
         width: 944px;
-        background:green;
+
     }
 }
 
@@ -37,7 +37,7 @@
 	{
 		width: 940px;
 		margin: 0 auto;
-        background:cadetblue ;
+
 	}
     .side-bar span
     {
@@ -58,7 +58,7 @@
 		float: left;
 		width: 724px;
 		margin: 25px 0 0 18px;
-        background:burlywood ;
+
 	}
 
 	.content-of-map
@@ -169,7 +169,7 @@
 	.wrapper
 	{
 		width: 400px;
-		background: bisque;
+
 	}
 	.side-bar span
 	{
@@ -180,7 +180,7 @@
 		float: left;
 		width: 363px;
 		margin:25px 18px 0 18px;
-		background: grey;
+
 	}
 
 	.list-info
@@ -262,13 +262,13 @@
 	.wrapper
 	{
 		width: 320px;
-		background: green;
+
 	}
 	.side-bar
 	{
 		text-align: justify;
 		width: 300px;
-		background: darkseagreen;
+
 		margin: 25px 0 0 10px;
 	}
 	.nav

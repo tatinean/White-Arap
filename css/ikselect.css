@@ -10,7 +10,6 @@
 .ik_select
 {
 	position: relative;
-	*zoom: 1;
 	display: inline-block;
 	margin-left: 23px;
 	font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
@@ -21,6 +20,8 @@
 {
 	display: inline-block;
 	*display: inline;
+	display: -moz-inline-stack;
+	zoom: 1;
 	width: 130px;
 }
 .sprite_arrow-form

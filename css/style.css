@@ -180,7 +180,6 @@ h4
 {
 	width: 1000px;
 	margin: 0 auto;
-	 background: rosybrown;
 }
 
 .header
@@ -205,7 +204,6 @@ h1
 	width: 180px;
 	float: left;
 	margin: 25px 0 0 18px;
-	background: darkseagreen;
 }
 .sprite_nav-icon{
 	width: 30px;
@@ -227,7 +225,7 @@ h1
 
 .list-info li:hover
 {
-	background-color: royalblue;
+	background-color: #2e43e1;
 	cursor: pointer;
 }
 
@@ -268,7 +266,7 @@ h1
 .submit
 {
 	background: #000;
-	color: #dddddd;
+	color: #ddd;
 	margin-top: 8px;
 	width: 88px;
 	height: 32px;
@@ -298,9 +296,6 @@ h1
 .alphabet li
 {
 	display: inline-block;
-	display: -moz-inline-stack;
-	zoom: 1;
-	*display: inline;
 	padding-right: 6px;
 	color: #2c2b2b;
 }
@@ -314,11 +309,7 @@ h1
 {
 	background: #000;
 	color: #fff;
-	-khtml-border-radius: 30px;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
 	border-radius: 30px;
-	behavior: url(border-radius/border-radius.htc);
 	padding: 1px 4px;
 }
 
@@ -358,9 +349,6 @@ h1
 .pagination a
 {
 	display: inline;
-	display: -moz-inline-stack;
-	zoom: 1;
-	*display: inline;
 	margin-right: 11px;
 	color:#2c2b2b;
 }
@@ -393,20 +381,17 @@ h1
 .info-footer li
 {
 	display: inline;
-	display: -moz-inline-stack;
-	zoom: 1;
-	*display: inline;
 	margin-right: 15px;
 }
 
 .info-footer li:hover
 {
-	background-color: royalblue;
+	background-color: #2e43e1;
 }
 
 .info-footer a:hover
 {
-	background-color: green;
+	background-color: #0f8008;
 }
 
 /*
@@ -469,9 +454,9 @@ h1
 	padding-top: 18px;
 }
 .recent-works
-{   background: gray;
+{
 	width: 187px;
-	background: #fafafa;
+	background:#fafafa;
 	float: left;
 	margin: 25px 0 0 13px;
 
@@ -568,7 +553,7 @@ h1
 	border-bottom: 1px solid #ebebeb;
 	color: #2c2b2b;
 	font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
-	font-size: 17px;
+	font-size: 16px;
 	padding-bottom: 14px;
 }
 
@@ -630,7 +615,7 @@ h1
 =================End  Page Index===========
 */
 /*
-================================Start Page Product===============================
+================================Start Page Index-product===============================
 */
 .content-of-products
 {
@@ -638,7 +623,7 @@ h1
 	float: left;
 	margin-left: 19px;
 	margin-top: 25px;
-	background: goldenrod;
+
 }
 
 .types-of-works
@@ -648,10 +633,6 @@ h1
 	width: 782px;
 	height: 112px;
 	display: inline-block;
-	display: -moz-inline-stack;
-	zoom: 1;
-	*display: inline;
-	background: rosybrown;
 }
 
 .form-ik
@@ -667,12 +648,15 @@ h1
 	height: 25px;
 	background: url(../images/sprite.png) no-repeat;
 }
-.form-ik  .form-genre
+.form-ik .form-genre
 {
 	padding-left: 3px;
 	font-family:'Conv_MyriadProBold', 'Conv_MyriadProSemibold', 'Conv_MyriadProRegular', serif;
 	font-size: 13px;
 	display: inline-block;
+	display: inline-block;
+	display: -moz-inline-stack;
+	zoom: 1;
 }
 
 .form-input
@@ -704,7 +688,7 @@ h1
 	width: 768px;
 	height: 138px;
 	padding-top: 18px;
-	background: green;
+
 }
 .top-right
 {
@@ -719,7 +703,7 @@ h1
 	font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProSemibold', 'Conv_MyriadProBold', serif;
 	font-size: 12px;
 	line-height: 17px;
-	 width: 674px;
+	width: 674px;
 }
 
 .title-of-the-work
@@ -753,10 +737,6 @@ h1
 .link li
 {
 	display: inline;
-	display: inline-block;
-	display: -moz-inline-stack;
-	zoom: 1;
-	*display: inline;
 	margin-right: 13px;
 }
 
@@ -787,7 +767,7 @@ h1
 }
 
 /*
-================================End Page Product===============================
+================================End Page Index-product===============================
 */
 
 /*
@@ -899,7 +879,7 @@ h1
 	width: 784px;
 	float: left;
 	margin: 25px 0 0 18px;
-	background: darkred;
+
 }
 
 .type-of-works-information-competitions
@@ -916,7 +896,6 @@ h1
 .information-competitions a
 {
 	display: inline-block;
-	display: -moz-inline-stack;
 	padding-left: 24px;
 	padding-top: 15px;
 }
@@ -1258,7 +1237,7 @@ h1
 	width: 784px;
 	float: left;
 	margin: 25px 0 0 18px;
-	background: indigo;
+
 }
 .main-head-title
 {
@@ -1272,7 +1251,7 @@ h1
     width: 558px;
     float: left;
     padding-bottom: 31px;
-    background: indianred;
+
 }
 textarea
 {
@@ -1342,7 +1321,7 @@ textarea
 	background-repeat: no-repeat;
 	padding-top: 627px;
 	background-size:cover;
-	margin-top: 337px;
+	margin-top: 436px;
 
 
 }
@@ -1382,19 +1361,6 @@ textarea
 	border-top: 1px solid #a8a8a8;
 
 }
-
-* html .content
-{
-	height: 930px;
-}
-
-.content
-{
-	min-height: 930px;
-	height: auto !important;
-	height: 930px;
-}
-
 
 /*
 ================================End Page Contact===============================

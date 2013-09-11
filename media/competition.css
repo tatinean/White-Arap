@@ -7,7 +7,7 @@
 	{
 		width: 1160px;
 		margin: 0 auto;
-		background: peru;
+
 	}
 
 	.side-bar span
@@ -18,7 +18,7 @@
 	.side-bar
 	{
 		width: 180px;
-		background: green;
+
 	}
 	.list-info
 	{
@@ -30,7 +30,7 @@
 		width: 944px;
 		float: left;
 		margin: 25px 0 0 18px;
-		background: brown;
+
 	}
 
 	.type-of-works-information-competitions
@@ -50,7 +50,7 @@
 	{
 		width: 940px;
 		margin: 0 auto;
-		background: blue;
+
 	}
 
 	.side-bar span
@@ -61,7 +61,7 @@
 	.side-bar
 	{
 		width: 180px;
-		background: plum;
+
 	}
 
 	.list-info
@@ -77,7 +77,7 @@
 		width: 724px;
 		float: left;
 		margin: 25px 0 0 18px;
-		background: peru;
+
 	}
 	.contests-listings,.contests-listing
 	{
@@ -95,7 +95,7 @@
 	.wrapper
 	{
 		width: 748px;
-		background: peru;
+
 	}
 
 	.side-bar span
@@ -106,7 +106,7 @@
 	.side-bar
 	{
 		width: 180px;
-		background: grey;
+
 	}
 
 	.list-info
@@ -119,7 +119,7 @@
 		width: 532px;
 		float: left;
 		margin: 25px 0 0 18px;
-		background: gold;
+
 	}
 
 	.type-of-works-information-competitions
@@ -181,7 +181,7 @@
 	.wrapper
 	{
 		width: 400px;
-		background: green;
+
 	}
 
 	.side-bar span
@@ -193,7 +193,7 @@
 	{
 		width: 364px;
 		text-align: justify;
-		background: yellow;
+
 	}
 
 	.list-info
@@ -213,7 +213,7 @@
 		width: 364px;
 		float: left;
 		margin: 25px 18px 0 18px;
-		background: pink;
+
 	}
 
 	.type-of-works-information-competitions
@@ -299,13 +299,12 @@
 	.wrapper
 	{
 		width: 320px;
-		background: blue;
+
 	}
 	.side-bar
 	{
 		text-align: justify;
 		width: 300px;
-		background: darkseagreen;
 		margin: 25px 0 0 10px;
 	}
 
@@ -358,7 +357,7 @@
 		width: 284px;
 		float: left;
 		margin: 25px 18px 0 18px;
-		background: grey;
+
 	}
 
 	.type-of-works-information-competitions
@@ -429,7 +428,7 @@
 		margin: 0;
 		padding-top: 44px;
 		text-align: center;
-		background: orange;
+
 	}
 
 	.info-footer li
