@@ -1,5 +1,5 @@
 /*
-======Start Page Authors========
+======Start Page Contact========
 */
 @media (min-width: 1200px)
 {
@@ -150,7 +150,10 @@
 	{
 		width: 536px;
 	}
-
+	.footer
+	{
+		padding-left: 26px;
+	}
 	.info-footer
 	{
 		text-align: center;
@@ -247,6 +250,11 @@
 		background-size: 366px 366px;
 		margin-top: 0;
 	}
+	.footer
+	{
+		padding-left: 26px;
+	}
+
 }
 
 @media (min-width:320px) and (max-width:479px)
@@ -371,6 +379,8 @@
 		background-size: contain;
 		margin-top: 26px;
 	}
+
+
 	.info-footer
 	{
 		color: #2C2B2B;
@@ -387,7 +397,7 @@
 }
 
 /*
-======End Page Authors========
+======End Page Contact========
 */
 
 
