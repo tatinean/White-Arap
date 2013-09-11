@@ -309,44 +309,67 @@
 		margin-left: 0;
 		float: left;
 	}
+	.header-form
+	{
+		width: 180px;
+		text-align: left;
+	}
+
 	.main-content
 	{
-		margin-left: 0;
 		width: 300px;
-		float: none;
+		margin: 25px 10px 0 10px;
+
 	}
+
 	.main-head
 	{
-		width: 320px;
+		width: 300px;
 	}
+
 	.main-head-form
 	{
 		width: 300px;
-		line-height: 45px;
 	}
-	textarea
-	{
-		width: 290px;
+	.name-right,.name-left {
+		margin: 11px 0 0 0;
+		padding: 0;
+	}
+	.submit-content{
 		float: left;
 	}
+
+	textarea
+	{
+		width:294px;
+		float: left;
+	}
+
 	.content-of-map
 	{
 		width: 300px;
 		margin: 0;
 	}
+
 	.contacts
 	{
 		float: left;
 	}
+	.location{
+		position:relative;
+	}
+
 	.map
 	{
 		position: static;
-		max-width: 320px;
+		max-width: 302px;
 	}
+
 	.church
 	{
-		max-width: 320px;
-		margin-top: -11px;
+		padding-top: 204px;
+		background-size: contain;
+		margin-top: 26px;
 	}
 	.info-footer
 	{
