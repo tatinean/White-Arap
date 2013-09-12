@@ -34,7 +34,7 @@
 	white-space: nowrap;
 	*zoom: 1;
 	height: 32px;
-	width: 180px;
+	width: 190px;
 	position: relative;
 	border: 1px solid #a8a8a8;
 }
@@ -61,7 +61,7 @@
 .ik_select_link_text
 {
 	display: block;
-	padding-left: 11px;
+	padding-left: 7px;
 	line-height: 30px;
 	font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
 	font-size: 13px;
@@ -96,13 +96,13 @@
 	padding: 0;
 	list-style: none;
 	font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .ik_select_list li
 {
 	position: relative;
-	padding: 0 0 5px 11px;
+	padding: 5px 0 9px 5px;
 	overflow: hidden;
 }
 
@@ -126,6 +126,7 @@
 .ik_select_hover
 {
 	background: #EEE;
+	line-height: 16px;
 }
 
 .ik_select_optgroup_disabled .ik_select_optgroup_label,
