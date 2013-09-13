@@ -1370,8 +1370,53 @@ textarea
 /*
 ================================End Page Book===============================
 */
+.selected-chapters{
+	width: 555px;
+	float: left;
+	margin: 25px 0 50px 18px;
+}
+.chapter
+{
+	width: 352px;
+	float: left;
 
+}
+.envelope {
+	max-width:352px;
+	max-height: 496px;
+}
+.abstract {
+	color: #c8c8c8;
+	font-size: 14px;
+	font-family: 'Conv_MyriadProRegular', 'Conv_MyriadProBold', 'Conv_MyriadProSemibold', serif;
+	padding:9px 0 7px 0;
+}
+.block-annotation
+{
+	width: 187px;
+	background:#fafafa;
+	float: left;
+	margin:0 0 0 12px;
+	padding-top: 14px;
+}
+.name-block-annotation{
+	padding-top: 14px;
+	font-family: 'Conv_MyriadProSemibold', 'Conv_MyriadProBold', 'Conv_MyriadProRegular', serif;
+	font-size: 18px;
+	padding-top: 3px;
+}
+.new-authors
+{
+	width: 199px;
+	float: left;
+	margin: 25px 16px 0 16px;
 
+}
+
+.new-authors p
+{
+	white-space: pre-line;
+}
 /*
 ================================End Page Book===============================
 */
