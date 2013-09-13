@@ -7,13 +7,13 @@
 	{
 		width: 1011px;
 		margin: 0 auto;
-		background: rosybrown;
+
 	}
 
 	.side-bar
 	{
 		width: 180px;
-		background: goldenrod;
+
 	}
 
 	.side-bar span
@@ -29,7 +29,6 @@
 	.publication
 	{
 		width: 352px;
-		background: greenyellow;
 		margin: 25px 0 50px 18px;
 	}
 
@@ -41,7 +40,7 @@
 	.new-authors
 	{
 		width: 199px;
-		background: goldenrod;
+
 	}
 }
 
@@ -51,13 +50,12 @@
 	{
 		width: 940px;
 		margin: 0 auto;
-		background: violet;
+
 	}
 
 	.side-bar
 	{
 		width: 180px;
-		background: bisque;
 		margin: 25px 0 0 4px;
 	}
 	.side-bar span
@@ -77,21 +75,18 @@
 	.publication
 	{
 		width: 352px;
-		background: burlywood;
 		margin: 25px 0 50px 4px;
 	}
 
 	.recent-works
 	{
 		width: 187px;
-		background: blue;
 		margin: 25px 0 0px 5px;
 	}
 
 	.new-authors
 	{
 		width: 199px;
-		background: beige;
 		margin: 25px 0 0px 5px;
 	}
 }
@@ -101,13 +96,11 @@
 	.wrapper
 	{
 		width: 748px;
-		background: gainsboro;
 	}
 
 	.side-bar
 	{
 		width: 180px;
-		background: royalblue;
 		margin: 25px 0 0 7px;
 	}
 
@@ -124,7 +117,6 @@
 	.publication
 	{
 		width: 352px;
-		background: cyan;
 		margin: 25px 0 50px 6px;
 	}
 
@@ -137,7 +129,6 @@
 	{
 		width: 191px;
 		float: left;
-		background: peru;
 		margin: 25px 0 0px 5px;
 	}
 
@@ -145,7 +136,6 @@
 	{
 		width: 734px;
 		float: left;
-		background: palevioletred;
 		margin: 25px 7px 0 7px;
 	}
 
@@ -178,7 +168,6 @@
 		width: 180px;
 		float: left;
 		margin: 0 0 30px 0;
-		background: gray;
 	}
 
 	.new-authors-scribe-scribe
@@ -186,7 +175,6 @@
 		width: 352px;
 		margin: 0 6px 0 7px;
 		float: left;
-		background: gray;
 	}
 
 	.edition
@@ -209,7 +197,6 @@
 	{
 		width: 189px;
 		float: left;
-		background: gray;
 	}
 
 	.new-authors-notebook a
@@ -233,14 +220,12 @@
 	.wrapper
 	{
 		width: 460px;
-		background: darkgreen;
 	}
 
 	.side-bar
 	{
 		float:left ;
 		width: 187px;
-		background: brown;
 		margin: 25px 0 0 10px;
 	}
 
@@ -262,7 +247,6 @@
 	.publication
 	{
 		width: 232px;
-		background: burlywood;
 		margin: 25px 10px 0 10px;
 		float: right;
 	}
@@ -276,7 +260,6 @@
 	{
 		width: 187px;
 		float:left;
-		background: rosybrown;
 		margin: 25px 10px 0 10px;
 
 	}
@@ -299,7 +282,6 @@
 
 	.new-authors
 	{
-		background: greenyellow;
 		width: 232px;
 		float: right;
 		margin: 25px 10px 50px 10px;
@@ -357,14 +339,12 @@
 	.wrapper
 	{
 		width: 320px;
-		background: rosybrown;
 	}
 
 	.side-bar
 	{
 		text-align: justify;
 		width: 300px;
-		background: darkseagreen;
 		margin: 25px 0 0 10px;
 	}
 
@@ -415,7 +395,6 @@
 	.publication
 	{
 		width: 300px;
-		background: springgreen;
 		margin: 25px 0 0 10px;
 	}
 
@@ -438,7 +417,6 @@
 	{
 		text-align: justify;
 		width: 300px;
-		background: greenyellow;
 		margin: 25px 0 0 10px;
 	}
 
@@ -461,7 +439,6 @@
 	{
 		margin: 25px 0 0 10px;
 		width: 300px;
-		background: darkseagreen;
 	}
 
 	.photo

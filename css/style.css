@@ -199,9 +199,7 @@ h1
 	margin: 0 auto;
 	cursor: pointer;
 }
-.side-bar span {
-	display: none;
-}
+
 .side-bar
 {
 	width: 180px;
@@ -786,21 +784,21 @@ h1
 	margin: 25px 18px 0 18px;
 	float: left;
 	width: 766px;
-	background: darkred;
+
 }
 
 #container
 {
 	margin: 25px 0 0 0;
 	width: 766px;
-	background: darksalmon;
+
 }
 
 .item
 {
 	width: 249px;
 	margin: 0 0 0 6px;
-	background: darkkhaki;
+	-webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; transition-duration: 0.5s;
 }
 
 .all-authors

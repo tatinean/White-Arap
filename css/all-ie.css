@@ -1,5 +1,9 @@
+.side-bar span {
+	display: none;
+}
+
 .letter{
-	behavior: url(border-radius.htc);
+	behavior: url(../pie/pie.htc);
 	-khtml-border-radius: 30px;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
