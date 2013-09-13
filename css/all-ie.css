@@ -8,10 +8,25 @@
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 }
-
+/*
+======Start Page Index========
+*/
+.question {
+	font-size: 14px;
+}
 .pagination a,
 .alphabet li,
-.info-footer li,
+.info-footer li
+{
+	display: -moz-inline-stack;
+	zoom: 1;
+	*display: inline;
+	display:inline-block;
+}
+/*
+======Start Page Index========
+*/
+
 .link li,
 .information-competitions a,
 .types-of-works,
@@ -22,4 +37,5 @@
 	display: -moz-inline-stack;
 	zoom: 1;
 	*display: inline;
+	display:inline-block;
 }
