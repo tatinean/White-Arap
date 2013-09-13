@@ -1405,6 +1405,9 @@ textarea
 	font-size: 18px;
 	padding-top: 3px;
 }
+.block-annotation-title{
+	margin-bottom: 25px;
+}
 .new-authors
 {
 	width: 199px;
